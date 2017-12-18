@@ -3,16 +3,22 @@ namespace Home\Controller;
 use Think\Controller;
 class NewsController extends Controller{
     public function read(){
-        $New = M('New');
+        // $New = M('New');
+
         if(isset($_GET['id'])) {
             // 根据id查询结果
-            $data = $New->find($_GET['id']);
+            // $data = $New->find($_GET['id']);
+            // echo "\n".$New."testst2";
+            $data = $_GET['id'];
+            echo $_GET['id']."test1";
         }elseif(isset($_GET['name'])){
             // 根据name查询结果
-            $data = $New->getByName($_GET['name']);
+            // $data = $New->getByName($_GET['name']);
+            $data = $_GET['name'];
         }
         $this->data = $data;
-        echo "test";
+        // echo "test";
+        
         $this->display();
     }
     public function archive(){
@@ -27,8 +33,8 @@ class NewsController extends Controller{
         $this->list =   $list;
         $this->display();
     }
-    pubilc function test() {
-      $this->show('test');
+    public function test() {
+      $this->show('test1');
     }
 }
  ?>

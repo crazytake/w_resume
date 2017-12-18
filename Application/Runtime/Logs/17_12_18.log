@@ -233,3 +233,2116 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTrace [ RunTime:0.000296s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
 
+[ 2017-12-18T20:06:41+08:00 ] 127.0.0.1 /w_resume/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given E:\nginx-1.12.2\html\w_resume\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-12-18T20:09:01+08:00 ] 127.0.0.1 /w_resume/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given E:\nginx-1.12.2\html\w_resume\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-12-18T20:11:26+08:00 ] 127.0.0.1 /w_resume/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given E:\nginx-1.12.2\html\w_resume\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-12-18T20:18:16+08:00 ] 127.0.0.1 /w_resume/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given E:\nginx-1.12.2\html\w_resume\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000446s ]
+
+[ 2017-12-18T20:21:23+08:00 ] 127.0.0.1 /w_resume/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2017-12-18T20:23:31+08:00 ] 127.0.0.1 /w_resume/new/8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+ERR: syntax error, unexpected 'pubilc' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2017-12-18T20:24:25+08:00 ] 127.0.0.1 /w_resume/new/8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+ERR: 没有定义数据库配置
+
+[ 2017-12-18T20:24:48+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+ERR: 没有定义数据库配置
+
+[ 2017-12-18T20:25:36+08:00 ] 127.0.0.1 /w_resume/new/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+ERR: 没有定义数据库配置
+
+[ 2017-12-18T20:25:37+08:00 ] 127.0.0.1 /w_resume/new/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+ERR: 没有定义数据库配置
+
+[ 2017-12-18T20:25:38+08:00 ] 127.0.0.1 /w_resume/new/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+ERR: 没有定义数据库配置
+
+[ 2017-12-18T20:25:53+08:00 ] 127.0.0.1 /w_resume/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2017-12-18T20:25:56+08:00 ] 127.0.0.1 /w_resume/new
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载控制器:New
+
+[ 2017-12-18T20:26:02+08:00 ] 127.0.0.1 /w_resume/new/read
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+ERR: 没有定义数据库配置
+
+[ 2017-12-18T20:39:41+08:00 ] 127.0.0.1 /w_resume/new/read
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+ERR: 系统不支持:mysql
+
+[ 2017-12-18T20:43:33+08:00 ] 127.0.0.1 /w_resume/new/read
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.009005s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1   [ RunTime:0.010470s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1  
+ERR: 模板不存在:./Application/Home/View/News/read.html
+
+[ 2017-12-18T20:43:43+08:00 ] 127.0.0.1 /w_resume/new/8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000539s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '8' ) LIMIT 1   [ RunTime:0.000290s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '8' ) LIMIT 1  
+ERR: 模板不存在:./Application/Home/View/News/read.html
+
+[ 2017-12-18T20:44:15+08:00 ] 127.0.0.1 /w_resume/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given E:\nginx-1.12.2\html\w_resume\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-12-18T20:44:27+08:00 ] 127.0.0.1 /w_resume/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-12-18T20:44:31+08:00 ] 127.0.0.1 /w_resume/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given E:\nginx-1.12.2\html\w_resume\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-12-18T20:44:34+08:00 ] 127.0.0.1 /w_resume/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given E:\nginx-1.12.2\html\w_resume\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-12-18T20:44:39+08:00 ] 127.0.0.1 /w_resume/new
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+ERR: 无法加载控制器:New
+
+[ 2017-12-18T20:44:52+08:00 ] 127.0.0.1 /w_resume/News/read/8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000511s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 14 行.
+ERR: 模板不存在:./Application/Home/View/News/read.html
+
+[ 2017-12-18T20:44:57+08:00 ] 127.0.0.1 /w_resume/News/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-12-18T20:45:07+08:00 ] 127.0.0.1 /w_resume/News/read?8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000687s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 14 行.
+ERR: 模板不存在:./Application/Home/View/News/read.html
+
+[ 2017-12-18T20:45:14+08:00 ] 127.0.0.1 /w_resume/News/read/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000544s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 14 行.
+ERR: 模板不存在:./Application/Home/View/News/read.html
+
+[ 2017-12-18T20:45:37+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000610s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000228s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+ERR: 模板不存在:./Application/Home/View/News/read.html
+
+[ 2017-12-18T21:04:28+08:00 ] 127.0.0.1 /w_resume/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2017-12-18T21:04:31+08:00 ] 127.0.0.1 /w_resume/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2017-12-18T21:04:33+08:00 ] 127.0.0.1 /w_resume/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-12-18T21:04:44+08:00 ] 127.0.0.1 /w_resume/new
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+ERR: 无法加载控制器:New
+
+[ 2017-12-18T21:04:50+08:00 ] 127.0.0.1 /w_resume/News
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+ERR: 非法操作:index
+
+[ 2017-12-18T21:04:56+08:00 ] 127.0.0.1 /w_resume/News/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+ERR: 非法操作:index
+
+[ 2017-12-18T21:05:00+08:00 ] 127.0.0.1 /w_resume/News/read
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.001291s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 14 行.
+ERR: 模板不存在:./Application/Home/View/News/read.html
+
+[ 2017-12-18T21:07:14+08:00 ] 127.0.0.1 /w_resume/new/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000583s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '1' ) LIMIT 1   [ RunTime:0.000248s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '1' ) LIMIT 1  
+ERR: 模板不存在:./Application/Home/View/News/read.html
+
+[ 2017-12-18T21:07:51+08:00 ] 127.0.0.1 /w_resume/new/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000565s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = '1' ) LIMIT 1   [ RunTime:0.000284s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = '1' ) LIMIT 1  
+ERR: 模板不存在:./Application/Home/View/News/read.html
+
+[ 2017-12-18T21:07:58+08:00 ] 127.0.0.1 /w_resume/Home/new/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000822s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = '1' ) LIMIT 1   [ RunTime:0.000231s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = '1' ) LIMIT 1  
+ERR: 模板不存在:./Application/Home/View/News/read.html
+
+[ 2017-12-18T21:11:43+08:00 ] 127.0.0.1 /w_resume/Home/new
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载控制器:New
+
+[ 2017-12-18T21:12:00+08:00 ] 127.0.0.1 /w_resume/Home/new?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载控制器:New
+
+[ 2017-12-18T21:12:06+08:00 ] 127.0.0.1 /w_resume/Home/new/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000602s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '0' ) LIMIT 1   [ RunTime:0.000254s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '0' ) LIMIT 1  
+ERR: 模板不存在:./Application/Home/View/News/read.html
+
+[ 2017-12-18T21:12:32+08:00 ] 127.0.0.1 /w_resume/Home/new/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000700s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '0' ) LIMIT 1   [ RunTime:0.000215s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '0' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000030s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-12-18T21:12:34+08:00 ] 127.0.0.1 /w_resume/Home/new/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000467s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '0' ) LIMIT 1   [ RunTime:0.000278s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '0' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000308s ]
+
+[ 2017-12-18T21:12:35+08:00 ] 127.0.0.1 /w_resume/Home/new/0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000543s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '0' ) LIMIT 1   [ RunTime:0.000195s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '0' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000009s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2017-12-18T21:12:37+08:00 ] 127.0.0.1 /w_resume/Home/new/83
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000418s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '83' ) LIMIT 1   [ RunTime:0.000233s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '83' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-12-18T21:13:18+08:00 ] 127.0.0.1 /w_resume/Home/new/83
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000942s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '83' ) LIMIT 1   [ RunTime:0.000253s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '83' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2017-12-18T21:13:20+08:00 ] 127.0.0.1 /w_resume/Home/new/83
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000638s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '83' ) LIMIT 1   [ RunTime:0.000479s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '83' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-12-18T21:13:33+08:00 ] 127.0.0.1 /w_resume/new/83
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000593s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '83' ) LIMIT 1   [ RunTime:0.000441s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '83' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-12-18T21:13:38+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000473s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000271s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-12-18T21:13:50+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+ERR: 无法加载控制器:New
+
+[ 2017-12-18T21:13:56+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000507s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000258s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2017-12-18T21:14:10+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000565s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000219s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-12-18T21:14:12+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000550s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000228s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-12-18T21:14:12+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000575s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000244s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-12-18T21:14:12+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.001117s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000284s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-12-18T21:14:35+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000478s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000233s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-12-18T21:14:37+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000696s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000300s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000030s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-12-18T21:14:37+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000487s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000259s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2017-12-18T21:14:38+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000469s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000248s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-12-18T21:14:38+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000453s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000200s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-12-18T21:14:38+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000429s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000223s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-12-18T21:14:38+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000429s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000194s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2017-12-18T21:14:43+08:00 ] 127.0.0.1 /w_resume/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given E:\nginx-1.12.2\html\w_resume\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-12-18T21:14:48+08:00 ] 127.0.0.1 /w_resume/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given E:\nginx-1.12.2\html\w_resume\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-12-18T21:17:58+08:00 ] 127.0.0.1 /w_resume/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given E:\nginx-1.12.2\html\w_resume\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2017-12-18T21:18:07+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000519s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000361s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-12-18T21:18:10+08:00 ] 127.0.0.1 /w_resume/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given E:\nginx-1.12.2\html\w_resume\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-12-18T21:18:13+08:00 ] 127.0.0.1 /w_resume/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+ERR: 非法操作:test
+
+[ 2017-12-18T21:18:14+08:00 ] 127.0.0.1 /w_resume/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+ERR: 非法操作:test
+
+[ 2017-12-18T21:18:26+08:00 ] 127.0.0.1 /w_resume/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000426s ]
+
+[ 2017-12-18T21:18:33+08:00 ] 127.0.0.1 /w_resume/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-12-18T21:18:45+08:00 ] 127.0.0.1 /w_resume/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+ERR: 无法加载控制器:Test
+
+[ 2017-12-18T21:18:46+08:00 ] 127.0.0.1 /w_resume/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+ERR: 无法加载控制器:Test
+
+[ 2017-12-18T21:19:05+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000553s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1   [ RunTime:0.000298s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'kk' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-12-18T21:19:09+08:00 ] 127.0.0.1 /w_resume/new
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载控制器:New
+
+[ 2017-12-18T21:19:31+08:00 ] 127.0.0.1 /w_resume/news
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+ERR: 非法操作:index
+
+[ 2017-12-18T21:19:38+08:00 ] 127.0.0.1 /w_resume/new
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+ERR: 无法加载控制器:New
+
+[ 2017-12-18T21:19:52+08:00 ] 127.0.0.1 /w_resume/new
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载控制器:New
+
+[ 2017-12-18T21:19:53+08:00 ] 127.0.0.1 /w_resume/new
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+ERR: 无法加载控制器:New
+
+[ 2017-12-18T21:20:00+08:00 ] 127.0.0.1 /w_resume/new/test
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given E:\nginx-1.12.2\html\w_resume\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-12-18T21:20:16+08:00 ] 127.0.0.1 /w_resume/new/read
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000490s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1   [ RunTime:0.000233s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000030s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2017-12-18T21:20:21+08:00 ] 127.0.0.1 /w_resume/new/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000740s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1   [ RunTime:0.000496s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2017-12-18T21:20:32+08:00 ] 127.0.0.1 /w_resume/new/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000740s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1   [ RunTime:0.000251s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-12-18T21:20:49+08:00 ] 127.0.0.1 /w_resume/new/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000656s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1   [ RunTime:0.000295s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2017-12-18T21:20:50+08:00 ] 127.0.0.1 /w_resume/new/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.001320s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1   [ RunTime:0.000241s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-12-18T21:22:41+08:00 ] 127.0.0.1 /w_resume/new/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000521s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1   [ RunTime:0.000219s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000030s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-12-18T21:22:49+08:00 ] 127.0.0.1 /w_resume/new/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000449s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1   [ RunTime:0.000227s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-12-18T21:22:55+08:00 ] 127.0.0.1 /w_resume/new/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000564s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1   [ RunTime:0.000921s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `name` = 'read' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2017-12-18T21:23:13+08:00 ] 127.0.0.1 /w_resume/News/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000430s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 16 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000009s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-12-18T21:23:48+08:00 ] 127.0.0.1 /w_resume/News/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000532s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+NOTIC: [8] Undefined index: id E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000030s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-12-18T21:23:49+08:00 ] 127.0.0.1 /w_resume/News/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000437s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+NOTIC: [8] Undefined index: id E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000009s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-12-18T21:23:50+08:00 ] 127.0.0.1 /w_resume/News/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000473s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+NOTIC: [8] Undefined index: id E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-12-18T21:23:50+08:00 ] 127.0.0.1 /w_resume/News/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.001657s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+NOTIC: [8] Undefined index: id E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000030s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-12-18T21:23:50+08:00 ] 127.0.0.1 /w_resume/News/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000466s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+NOTIC: [8] Undefined index: id E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2017-12-18T21:23:50+08:00 ] 127.0.0.1 /w_resume/News/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000490s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+NOTIC: [8] Undefined index: id E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2017-12-18T21:23:50+08:00 ] 127.0.0.1 /w_resume/News/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000593s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+NOTIC: [8] Undefined index: id E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000009s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2017-12-18T21:23:50+08:00 ] 127.0.0.1 /w_resume/News/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000517s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+NOTIC: [8] Undefined index: id E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000032s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2017-12-18T21:24:00+08:00 ] 127.0.0.1 /w_resume/News/read/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000596s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+NOTIC: [8] Undefined index: id E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: data E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2017-12-18T21:24:09+08:00 ] 127.0.0.1 /w_resume/News/read?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000464s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1   [ RunTime:0.000256s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-12-18T21:24:35+08:00 ] 127.0.0.1 /w_resume/new/read?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000487s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1   [ RunTime:0.000216s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-12-18T21:24:40+08:00 ] 127.0.0.1 /w_resume/new?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载控制器:New
+
+[ 2017-12-18T21:24:47+08:00 ] 127.0.0.1 /w_resume/new/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000490s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1   [ RunTime:0.000232s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-12-18T21:26:23+08:00 ] 127.0.0.1 /w_resume/new/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000507s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1   [ RunTime:0.000232s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000034s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2017-12-18T21:26:23+08:00 ] 127.0.0.1 /w_resume/new/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000623s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1   [ RunTime:0.000330s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-12-18T21:26:44+08:00 ] 127.0.0.1 /w_resume/new/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.001559s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1   [ RunTime:0.000356s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1  
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-12-18T21:26:45+08:00 ] 127.0.0.1 /w_resume/new/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.001444s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1   [ RunTime:0.000860s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1  
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2017-12-18T21:26:46+08:00 ] 127.0.0.1 /w_resume/new/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000934s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1   [ RunTime:0.000237s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1  
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000009s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2017-12-18T21:26:46+08:00 ] 127.0.0.1 /w_resume/new/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000501s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1   [ RunTime:0.000214s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1  
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000009s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2017-12-18T21:26:47+08:00 ] 127.0.0.1 /w_resume/new/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000575s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1   [ RunTime:0.000277s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1  
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2017-12-18T21:26:47+08:00 ] 127.0.0.1 /w_resume/new/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000439s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1   [ RunTime:0.000234s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1  
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000030s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-12-18T21:26:47+08:00 ] 127.0.0.1 /w_resume/new/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000540s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1   [ RunTime:0.000219s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1  
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-12-18T21:27:02+08:00 ] 127.0.0.1 /w_resume/new/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000480s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1   [ RunTime:0.000263s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( `id` = '9' ) LIMIT 1  
+NOTIC: [4096] Object of class Think\Model could not be converted to string E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000032s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2017-12-18T21:29:26+08:00 ] 127.0.0.1 /w_resume/new/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+ERR: syntax error, unexpected '}'
+
+[ 2017-12-18T21:29:33+08:00 ] 127.0.0.1 /w_resume/new/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2017-12-18T21:29:36+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [8] Undefined index: id E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000009s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-12-18T21:29:58+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-12-18T21:30:04+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000007s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000025s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-12-18T21:30:17+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000035s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-12-18T21:30:23+08:00 ] 127.0.0.1 /w_resume/new/kk
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+NOTIC: [4096] Object of class Home\Controller\NewsController could not be converted to string E:\nginx-1.12.2\html\w_resume\Application\Home\Controller\NewsController.class.php 第 21 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000007s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000025s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2017-12-18T21:32:15+08:00 ] 127.0.0.1 /w_resume/new/2013
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000007s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000026s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-12-18T21:33:09+08:00 ] 127.0.0.1 /w_resume/new/2013/20
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000008s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000026s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-12-18T21:33:14+08:00 ] 127.0.0.1 /w_resume/new/2013/12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000008s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000026s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-12-18T21:33:17+08:00 ] 127.0.0.1 /w_resume/new/2013/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000009s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000028s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2017-12-18T21:33:52+08:00 ] 127.0.0.1 /w_resume/new/2013/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000558s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( (`create_time` > 1365609600) AND (`create_time` < 1368201600)  ) AND ( `status` = 1 )  [ RunTime:0.014242s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( (`create_time` > 1365609600) AND (`create_time` < 1368201600)  ) AND ( `status` = 1 ) 
+ERR: 模板不存在:./Application/Home/View/News/archive.html
+
+[ 2017-12-18T21:34:09+08:00 ] 127.0.0.1 /w_resume/new/2013/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000609s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( (`create_time` > 1365609600) AND (`create_time` < 1368201600)  ) AND ( `status` = 1 )  [ RunTime:0.000824s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( (`create_time` > 1365609600) AND (`create_time` < 1368201600)  ) AND ( `status` = 1 ) 
+ERR: 模板不存在:./Application/Home/View/News/archive.html
+
+[ 2017-12-18T21:34:12+08:00 ] 127.0.0.1 /w_resume/new/2013
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+ERR: 模板不存在:./Application/Home/View/News/read.html
+
+[ 2017-12-18T21:35:06+08:00 ] 127.0.0.1 /w_resume/new/2013
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-12-18T21:35:10+08:00 ] 127.0.0.1 /w_resume/new/2013/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000441s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( (`create_time` > 1365609600) AND (`create_time` < 1368201600)  ) AND ( `status` = 1 )  [ RunTime:0.000203s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( (`create_time` > 1365609600) AND (`create_time` < 1368201600)  ) AND ( `status` = 1 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000010s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2017-12-18T21:35:16+08:00 ] 127.0.0.1 /w_resume/new/2013/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000497s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( (`create_time` > 1365609600) AND (`create_time` < 1368201600)  ) AND ( `status` = 1 )  [ RunTime:0.000247s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( (`create_time` > 1365609600) AND (`create_time` < 1368201600)  ) AND ( `status` = 1 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000009s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.001918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2017-12-18T21:35:28+08:00 ] 127.0.0.1 /w_resume/new/2013/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000571s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( (`create_time` > 1365609600) AND (`create_time` < 1368201600)  ) AND ( `status` = 1 )  [ RunTime:0.000764s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( (`create_time` > 1365609600) AND (`create_time` < 1368201600)  ) AND ( `status` = 1 ) 
+ERR: 模板不存在:./Application/Home/View/News/archive.html
+
+[ 2017-12-18T21:35:44+08:00 ] 127.0.0.1 /w_resume/new/2013/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000621s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( (`create_time` > 1365609600) AND (`create_time` < 1368201600)  ) AND ( `status` = 1 )  [ RunTime:0.000228s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( (`create_time` > 1365609600) AND (`create_time` < 1368201600)  ) AND ( `status` = 1 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000034s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2017-12-18T22:01:32+08:00 ] 127.0.0.1 /w_resume/new/2013/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `new` [ RunTime:0.000673s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+SQL: SELECT * FROM `new` WHERE ( (`create_time` > 1365609600) AND (`create_time` < 1368201600)  ) AND ( `status` = 1 )  [ RunTime:0.000235s ]
+ERR: 1146:Table 'mysql.new' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `new` WHERE ( (`create_time` > 1365609600) AND (`create_time` < 1368201600)  ) AND ( `status` = 1 ) 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-12-18T22:07:31+08:00 ] 127.0.0.1 /w_resume/new/2013
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000007s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000026s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
