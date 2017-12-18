@@ -1,0 +1,70 @@
+[ 2017-12-18T17:05:01+08:00 ] 127.0.0.1 /w_resume/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-12-18T17:15:47+08:00 ] 127.0.0.1 /w_resume/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-12-18T17:16:23+08:00 ] 127.0.0.1 /w_resume/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-12-18T17:32:30+08:00 ] 127.0.0.1 /w_resume/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-12-18T17:32:32+08:00 ] 127.0.0.1 /w_resume/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-12-18T17:33:01+08:00 ] 127.0.0.1 /w_resume/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-12-18T17:35:29+08:00 ] 127.0.0.1 /w_resume/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-12-18T17:35:36+08:00 ] 127.0.0.1 /w_resume/index.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
