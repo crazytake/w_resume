@@ -18,7 +18,7 @@ class NewsController extends Controller{
         }
         $this->data = $data;
         // echo "test";
-        
+        echo $data;
         $this->display();
     }
     public function archive(){
@@ -37,4 +37,4 @@ class NewsController extends Controller{
       $this->show('test1');
     }
 }
- ?>
+?>
