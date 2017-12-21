@@ -14,7 +14,7 @@
   <body>
     <div class="container ">
       <div class="edit-area">
-        <section class="base-info hide">
+        <section class="base-info edit-block">
           <div class="head-pic">
             <div class="img">
               <img src="__IMG__/miao.jpg" alt="">
@@ -72,7 +72,7 @@
         </section>
         <!-- baseinfo end  -->
         <!-- intension start -->
-        <section class="intension hide">
+        <section class="intension edit-block hide">
           <div class="title">
             <span>求职意向</span>
           </div>
@@ -115,7 +115,7 @@
         </section>
         <!-- intension end -->
         <!-- education section -->
-        <section class="education ">
+        <section class="education edit-block hide">
           <div class="title">
             <span>教育经历</span>
           </div>
@@ -155,7 +155,7 @@
           </div>
         </section>
         <!-- job -->
-        <section class="job">
+        <section class="job-exp edit-block hide">
           <div class="title">
             <span>工作经历</span>
           </div>
@@ -189,7 +189,7 @@
           </div>
         </section>
         <!-- project -->
-        <section class="project">
+        <section class="project edit-block hide">
           <div class="title">
             <span>项目经历</span>
           </div>
@@ -219,28 +219,33 @@
           </div>
         </section>
         <!-- 自我评价 -->
-        <section class="evalution">
+        <section class="evalution edit-block hide">
           <div class="title">
             <span>自我评价</span>
           </div>
           <textarea name="name" rows="8" cols="80"></textarea>
         </section>
+        <!-- 自定义模块 -->
+        <section class="custom edit-block hide">
+
+        </section>
       </div>
-      <div class="r-bar">
+      <div class="r-bar" id="r-bar">
         <ul class="nav" id="nav-main1">
           <li class="nav-head">
             <span>简历模块</span>
             <a class="preview" href="javascripts:;">预览</a>
           </li>
-          <li class="nav-item active"><a href="javascripts:;">基本信息</a></li>
-          <li class="nav-item"><a href="javascripts:;">求职意向</a></li>
-          <li class="nav-item"><a href="javascripts:;">教育经历</a></li>
-          <li class="nav-item"><a href="javascripts:;">工作经历</a></li>
-          <li class="nav-item"><a href="javascripts:;">项目经历</a></li>
-          <li class="nav-item"><a href="javascripts:;">自我评价</a></li>
-          <li class="nav-item"><a href="javascripts:;">添加自定义模块</a></li>
+          <li class="nav-item active" data-target="base-info">基本信息</li>
+          <li class="nav-item" data-target="intension">求职意向</li>
+          <li class="nav-item" data-target="education">教育经历</li>
+          <li class="nav-item" data-target="job-exp">工作经历</li>
+          <li class="nav-item" data-target="project">项目经历</li>
+          <li class="nav-item" data-target="evalution">自我评价</li>
+          <li class="nav-item" data-target="custom">添加自定义模块</li>
         </ul>
       </div>
     </div>
+    <script type="text/javascript" src="__JS__/CreateResume.js"></script>
   </body>
 </html>

@@ -103,16 +103,20 @@ a.preview:hover{
 .nav-item{
   height: 60px;
   line-height: 60px;
-  text-indent: 30px;
   border-bottom: 1px solid #eee;
   margin: 2px 0;
+  cursor: pointer;
+  text-indent: 30px;
+  color: #333;
+
 }
 .nav-item:hover, .nav-item.active{
   border-left: 2px solid #2c7;
 }
-.nav-item.active a{
+.nav-item.active{
   color: #2c7;
 }
+
 /* 基本信息模块css */
 .base-info{
   width: 100%;
@@ -230,21 +234,21 @@ section .title{
 }
 
 /* job */
-.job{
+.job-exp{
   position: relative;
   width: 100%;
 }
-.job .tit{
+.job-exp .tit{
   display: block;
   margin: 10px 0;
 }
-.job input{
+.job-exp input{
   width: 80%;
 }
-.job select{
+.job-exp select{
   width: 80px;
 }
-.job textarea{
+.job-exp textarea{
   width: 80%;
 }
 /* project */
