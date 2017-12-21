@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>createResume</title>
+    <link rel="stylesheet" href="__CSS__/base.css">
+    <!-- <link rel="stylesheet" href="__ROOT__/Public/common/pintuer/pintuer.css" /> -->
+    <link rel="stylesheet" href="__CSS__/CreateResume.css">
+    <!-- <script type="text/javascript" src="__ROOT__/Public/Common/pintuer/jquery.js"></script> -->
+    <!-- <script type="text/javascript" src="__ROOT__/Public/common/pintuer/pintuer.js"></script> -->
+  </head>
+  <body>
+    <div class="container ">
+      <div class="edit-area">
+        <section class="base-info hide">
+          <div class="head-pic">
+            <div class="img">
+              <img src="__IMG__/miao.jpg" alt="">
+              <div class="img-hover">上传图片</div>
+            </div>
+          </div>
+          <div class="base-text">
+            <form action="post">
+              <div class="line clearfix">
+                <div class="name base-item">
+                  <label for="name">姓名</label>
+                  <input type="text" id="name">
+                </div>
+                <div class="born-date base-item">
+                  <label for="">出生年月</label>
+                  <select class="year" name="year" placeholder="年份">
+                    <option value="1990">1990</option>
+                  </select>
+                  <select class="month" name="month" placeholder="月份">
+                    <option value="1">1月</option>
+                  </select>
+                </div>
+              </div>
+              <div class="line clearfix">
+                <div class="city base-item">
+                  <label for="city">所在城市</label>
+                  <input type="text" name="" value="">
+                </div>
+                <div class="employ-age base-item">
+                  <label for="employ-age">工作年限</label>
+                  <select class="" name="">
+                    <option value="">无工作经验</option>
+                    <option value="">1年工作经验</option>
+                  </select>
+                </div>
+              </div>
+              <div class="line clearfix">
+                <div class="phone base-item" >
+                  <label for="phone">联系号码</label>
+                  <input type="text" name="phone" value="">
+                </div>
+              </div>
+              <div class="line clearfix">
+                <div class="email base-item">
+                  <label for="email">邮箱</label>
+                  <input type="text" name="email" value="">
+                </div>
+              </div>
+              <div class="s-desc base-item">
+                <label class="title">一句话描述</label>
+                <input type="text" name="" value="">
+              </div>
+            </form>
+          </div>
+        </section>
+        <!-- baseinfo end  -->
+        <!-- intension start -->
+        <section class="intension hide">
+          <div class="title">
+            <span>求职意向</span>
+          </div>
+          <div class="info">
+            <form action="post">
+              <div class="line clearfix">
+                <span class="tit clearfix">期望职位</span>
+                <div class="intension-item">
+                  <div class="job">
+                    <input type="text" name="" value="">
+                  </div>
+                </div>
+                <div class="intension-item">
+                  <div class="job-type">
+                    <select class="" name="">
+                      <option value="">全职</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="line clearfix">
+                <div class="intension-item">
+                  <span class="tit clearfix">意向城市</span>
+                  <div class="city">
+                    <input type="text" name="" value="">
+                  </div>
+                </div>
+                <div class="intension-item">
+                  <span class="tit clearfix">入职时间</span>
+                  <div class="in-date">
+                    <select class="" name="">
+                      <option value="">随时到岗</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+        <!-- intension end -->
+        <!-- education section -->
+        <section class="education ">
+          <div class="title">
+            <span>教育经历</span>
+          </div>
+          <div class="info">
+            <form action="post">
+              <div class="line">
+                <div class="school">
+                  <span class="tit">学校名称</span>
+                  <input type="text" name="" value="">
+                </div>
+              </div>
+              <div class="line">
+                <div class="object">
+                  <span class="tit">所学专业</span>
+                  <input type="text">
+                </div>
+              </div>
+              <div class="line clearfix">
+                <div class="qualification clearfix">
+                  <span class="tit">学历</span>
+                  <select class="" name="">
+                    <option value="">本科</option>
+                  </select>
+                </div>
+                <div class="graduate-date clearfix">
+                  <span class="tit">毕业年份</span>
+                  <select class="" name="">
+                    <option value="">2016</option>
+                  </select>
+                </div>
+              </div>
+              <div class="line">
+                <span class="tit">学习内容</span>
+                <textarea name="name" rows="8" cols="80"></textarea>
+              </div>
+            </form>
+          </div>
+        </section>
+        <!-- job -->
+        <section class="job">
+          <div class="title">
+            <span>工作经历</span>
+          </div>
+          <div class="info">
+            <div class="job-list">
+              <form action="post">
+                <div class="line company">
+                  <span class="tit">公司</span>
+                  <input type="text">
+                </div>
+                <div class="line place">
+                  <span class="tit">职位</span>
+                  <input type="text">
+                </div>
+                <div class="line time">
+                  <span class="tit">在职时间</span>
+                  <select class="b-time" name="">
+                    <option value="">2015/09</option>
+                  </select>
+                  ~
+                  <select class="" name="">
+                    <option value="">2016/05</option>
+                  </select>
+                </div>
+                <div class="line job-content">
+                  <span class="tit">工作内容</span>
+                  <textarea name="name" rows="8" cols="80"></textarea>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        <!-- project -->
+        <section class="project">
+          <div class="title">
+            <span>项目经历</span>
+          </div>
+          <div class="info">
+            <div class="line name">
+              <span class="tit">项目名称</span>
+              <input type="text">
+            </div>
+            <div class="line duty">
+              <span class="tit">你的职责</span>
+              <input type="text" name="" value="">
+            </div>
+            <div class="line time">
+              <span class="tit">项目起止时间</span>
+              <select class="b-time" name="">
+                <option value="">2015/09</option>
+              </select>
+              ~
+              <select class="" name="">
+                <option value="">2016/05</option>
+              </select>
+            </div>
+            <div class="line project-content">
+              <span class="tit">项目内容</span>
+              <textarea name="name" rows="8" cols="80"></textarea>
+            </div>
+          </div>
+        </section>
+        <!-- 自我评价 -->
+        <section class="evalution">
+          <div class="title">
+            <span>自我评价</span>
+          </div>
+          <textarea name="name" rows="8" cols="80"></textarea>
+        </section>
+      </div>
+      <div class="r-bar">
+        <ul class="nav" id="nav-main1">
+          <li class="nav-head">
+            <span>简历模块</span>
+            <a class="preview" href="javascripts:;">预览</a>
+          </li>
+          <li class="nav-item active"><a href="javascripts:;">基本信息</a></li>
+          <li class="nav-item"><a href="javascripts:;">求职意向</a></li>
+          <li class="nav-item"><a href="javascripts:;">教育经历</a></li>
+          <li class="nav-item"><a href="javascripts:;">工作经历</a></li>
+          <li class="nav-item"><a href="javascripts:;">项目经历</a></li>
+          <li class="nav-item"><a href="javascripts:;">自我评价</a></li>
+          <li class="nav-item"><a href="javascripts:;">添加自定义模块</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

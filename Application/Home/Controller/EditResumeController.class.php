@@ -6,5 +6,8 @@
     public function EditResume() {
       $this->display();
     }
+    public function createResume() {
+      $this->display();
+    }
   }
   ?>

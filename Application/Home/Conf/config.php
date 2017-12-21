@@ -5,7 +5,8 @@ return array(
     'new/:year\d/:month\d'  => 'News/archive',
     'new/:id\d'    => 'News/read',
     'new/:name'    => 'News/read',
-    'editresume'   => 'EditResume/EditResume'
+    'editresume'   => 'EditResume/EditResume',
+    'createresume' => 'EditResume/CreateResume'
   ),
   'URL_MAP_RULES' =>  array(
     'new/test' => 'News/test',

@@ -11,6 +11,8 @@ i{font-style:normal;}
 div,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,img,ol,ul,li,table,th,td,p,span,a{border:0;}
 img,input{border:none;vertical-align:middle;}
 ul,ol,li{list-style-type:none;}
+a{text-decoration: none;color: #333;}
+a:link, a:visited,a:hover,a:active,a:focus {text-decoration: none;border: 0;}
 .clear{clear:both;font-size:1px;height:0;visibility:hidden;line-height:0;}
 .clearfix:after{content:"";display:block;clear:both;}
 .clearfix{zoom:1;}
