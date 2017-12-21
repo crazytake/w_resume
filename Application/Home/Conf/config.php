@@ -15,6 +15,7 @@ return array(
     '__CSS__' => __ROOT__.'/Application/Home/Public/css',
     '__JS__'  => __ROOT__.'/Application/Home/Public/js',
     '__IMG__' => __ROOT__.'/Application/Home/Public/img',
+    '__COMMON__'  => __ROOT__.'/Application/Home/Public/common',
     '__PUBLIC__'  => __ROOT__.'/Application/Home/Public/'
   )
 )
