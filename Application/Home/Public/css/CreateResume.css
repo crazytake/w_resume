@@ -164,6 +164,19 @@ a.preview:hover{
   width: 100%;
   height: auto;
 }
+#head-pic{
+  position: absolute;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  bottom: -30px;
+  left: 234px;
+  outline: 0;
+  border: 0;
+  opacity: 0;
+  cursor: pointer;
+  border-radius: 60px;
+}
 .line{
   width: 100%;
   margin-bottom: 10px;
@@ -275,4 +288,21 @@ section .title{
 .evalution textarea{
   width: 80%;
   margin-top: 10px;
+}
+
+
+.btn-save {
+  outline: 0;
+  border: 1px solid #2c7;
+  background-color: #fff;
+  color: #2c7;
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 5px;
+  float: right;
+  margin-top: 20px;
+}
+.btn-save:hover{
+  color: #fff;
+  background-color: #2c7;
 }

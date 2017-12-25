@@ -1,3 +1,5 @@
 /.htaccess
 /.idea
 /Application/Runtime
+/Uploads
+.idea
