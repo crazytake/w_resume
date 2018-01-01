@@ -19,3 +19,6 @@ a:link, a:visited,a:hover,a:active,a:focus {text-decoration: none;border: 0;}
 .hide{
   display: none;
 }
+.show{
+  display: block;
+}
