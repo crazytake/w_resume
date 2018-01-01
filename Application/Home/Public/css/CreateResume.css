@@ -50,6 +50,26 @@ textarea{
 textarea:focus{
   border-color: #2c7;
 }
+
+.btn {
+  font-size: 14px;
+  border: 1px solid #2c7;
+  padding: 5px 20px;
+  border-radius: 4px;
+  color: #2c7;
+  outline: 0;
+  cursor: pointer;
+  background-color: #fff;
+}
+.btn:hover{
+  color: #fff;
+  background-color: #2c7;
+}
+.btn-add{
+  position: absolute;
+  top: 16px;
+  right: 0;
+}
 /* 重写end */
 .container{
   position: relative;
@@ -82,23 +102,7 @@ textarea:focus{
   line-height: 80px;
   text-indent: 10px;
 }
-a.preview{
-  display: block;
-  position: absolute;
-  font-size: 14px;
-  border: 1px solid #2c7;
-  padding: 5px 14px;
-  border-radius: 4px;
-  color: #2c7;
-  right: 10px;
-  top: 30px;
-  font-weight: normal;
-  text-align: center;
-}
-a.preview:hover{
-  color: #fff;
-  background-color: #2c7;
-}
+
 
 .nav-item{
   height: 60px;
@@ -141,6 +145,7 @@ a.preview:hover{
   bottom: -30px;
   left: 234px;
   background-color: #fff;
+  z-index: 10;
 }
 .img-hover{
   display: none;
@@ -157,7 +162,7 @@ a.preview:hover{
   cursor: pointer;
   user-select: none;
 }
-.img:hover .img-hover{
+.img:hover .img-hover, .img:focus .img-hover{
   display: block;
 }
 .img img{
@@ -169,8 +174,7 @@ a.preview:hover{
   display: inline-block;
   width: 120px;
   height: 120px;
-  bottom: -30px;
-  left: 234px;
+  top: 0;
   outline: 0;
   border: 0;
   opacity: 0;
@@ -200,12 +204,23 @@ a.preview:hover{
 .s-desc input{
   width: 80%;
 }
+.birthday{
+  position: relative;
+}
+.base-info .btn-save{
+  float: right;
+  margin-top: 20px;
+}
 
 /* 基本信息end */
 /* 求职意向 go */
 .intension{
   width: 100%;
   position: relative;
+}
+.intension .btn-save{
+  float: right;
+  margin-top: 20px;
 }
 section .title{
   font-size: 20px;
@@ -236,6 +251,9 @@ section .title{
   display: block;
   margin: 10px 0;
 }
+.education-edit{
+  margin-bottom: 20px;
+}
 .education .school input, .object input{
   width: 80%;
 }
@@ -246,7 +264,25 @@ section .title{
   float: left;
   margin-right: 20px;
 }
-
+.education-list-item{
+  height: 50px;
+  background-color: #ffffe8;
+  padding: 20px 10px;
+}
+.education-list-item .school-name{
+  float: left;
+  margin-right: 40px;
+}
+.education-list-item .qualification-saved{
+  float: left;
+}
+.education-list-item .major-name{
+  float: left;
+}
+.education-list-item .graduate-year{
+  float: right;
+  margin-right: 50px;
+}
 /* job */
 .job-exp{
   position: relative;
@@ -265,6 +301,25 @@ section .title{
 .job-exp textarea{
   width: 80%;
 }
+.job-edit{
+  margin-bottom: 20px;
+}
+.job-list-item {
+  height: 50px;
+  background-color: #ffffe8;
+  padding: 20px 10px;
+}
+.job-list-item .company-name {
+  float: left;
+  margin-right: 50px;
+}
+.job-list-item .place-name {
+  float: left;
+}
+.job-list-item .last-time{
+  float: right;
+  display: inline-block;
+}
 /* project */
 .project{
   position: relative;
@@ -280,29 +335,91 @@ section .title{
 .project select{
   width: 80px;
 }
+.project-edit{
+  margin-bottom: 20px;
+}
+.project-list-item {
+  height: 50px;
+  background-color: #ffffe8;
+  padding: 20px 10px;
+}
+.project-list-item .project-name {
+  float: left;
+  margin-right: 50px;
+}
+.project-list-item .duty-name {
+  float: left;
+}
+.project-list-item .last-time{
+  float: right;
+  display: inline-block;
+}
 /* evalution */
 .evalution{
   width: 100%;
   position: relative;
+}
+.evalution .btn-save{
+  float: right;
+  margin-top: 20px;  
 }
 .evalution textarea{
   width: 80%;
   margin-top: 10px;
 }
 
-
-.btn-save {
-  outline: 0;
-  border: 1px solid #2c7;
-  background-color: #fff;
-  color: #2c7;
-  cursor: pointer;
-  padding: 5px 20px;
-  border-radius: 5px;
-  float: right;
-  margin-top: 20px;
+.time-selector-box{
+  position: relative;
+  display: inline-block;
 }
-.btn-save:hover{
-  color: #fff;
+.time-selector{
+  position: absolute;
+  width: 260px;
+  height: 120px;
+  display: none;
+  background-color: #fff;
+  /* left: 100px; */
+}
+
+.time-input{
+  background: url("../img/arrow.png") no-repeat scroll 95% 50% transparent;
+  cursor: pointer;
+  text-indent: 5px;
+  user-select: none;
+  /* width: 100px; */
+}
+input.c_stime, input.c_etime{
+  width: 100px;
+}
+.time-selector .year{
+  width: 80px;
+  height: 100%;
+  float: left;
+  overflow-y: scroll;
+  text-align: center;
+  user-select: none;
+}
+.time-selector .year dt {
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.time-selector .year dt:hover, .time-selector .month dt:hover, .time-selector .selected {
   background-color: #2c7;
+  color: #fff;
+}
+.time-selector .month{
+  width: 170px;
+  height: 100%;
+  float: left;
+  overflow-y: scroll;
+}
+.time-selector .month dt{
+  float: left;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
 }

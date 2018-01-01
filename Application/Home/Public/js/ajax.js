@@ -5,7 +5,7 @@ var ajax = function(){
     async:arguments[0].async|| "true",
     data: arguments[0].data || null,
     dataType: arguments[0].dataType || "text",
-    // contentType: arguments[0].contentType || "application/x-www-form-urlencoded",
+    contentType: arguments[0].contentType || 'application/x-www-form-urlencoded',
     before: arguments[0].before || function(){},
     success: arguments[0].success || function(){},
     error: arguments[0].error || function(){}
@@ -15,7 +15,9 @@ var ajax = function(){
   var xhr = createxmlHttpRequest();
   xhr.reponseType = ajaxData.dataType;
   xhr.open(ajaxData.type, ajaxData.url, ajaxData.async);
-  // xhr.setRequestHeader("Content-Type",ajaxData.contentType);
+  if(ajaxData.contentType != 'multipart/form-data'){
+    xhr.setRequestHeader("Content-Type",ajaxData.contentType);
+  }
   xhr.send(ajaxData.data);
   xhr.onReadystatechange = function() {
     if(xhr.readyState == 4) {
