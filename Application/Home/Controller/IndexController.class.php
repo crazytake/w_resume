@@ -11,7 +11,7 @@ class IndexController extends Controller {
     public function test() {
       echo 'test1111';
     }
-    public function editResume() {
+    public function edit_resume() {
 
     }
 }

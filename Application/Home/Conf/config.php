@@ -6,7 +6,7 @@ return array(
     'new/:id\d'    => 'News/read',
     'new/:name'    => 'News/read',
     // 'editresume'   => 'EditResume/EditResume',
-    'createresume' => 'EditResume/CreateResume',
+    'createresume' => 'EditResume/create_resume',
     // 'uploadImg'    => array('EditResume/UploadImg','', array('method' => 'POST')),
     // array('uploadImg', 'EditResume/UploadImg', '', array('method' => 'POST')),
   ),

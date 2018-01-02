@@ -8,10 +8,10 @@
     //
     //   $this->display();
     // }
-    public function CreateResume() {
+    public function create_resume() {
       $this->display();
     }
-    public function UploadImg(){
+    public function upload_img(){
       var_dump($_FILES['img']);
       if(!$_FILES){
           echo "111";
@@ -42,7 +42,7 @@
       //   $this->success('上传成功！');
       // }
     }
-    public function SaveInfo() {
+    public function save_info() {
       var_dump($_POST);
 //      $data = M()
     }
