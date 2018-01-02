@@ -8,15 +8,15 @@
     //
     //   $this->display();
     // }
-    public function CreateResume() {
+    public function create_resume() {
       $this->display();
     }
-    public function UploadImg(){
+    public function upload_img(){
       var_dump($_FILES['img']);
       if(!$_FILES){
           echo "111";
       }
-      if($this->method = 'post'){
+      if($this->method == 'post'){
         $config = array(
           'maxSize' => 3145728,
           'rootPath'=> './Uploads/',
@@ -42,7 +42,7 @@
       //   $this->success('上传成功！');
       // }
     }
-    public function SaveInfo() {
+    public function save_info() {
       var_dump($_POST);
 //      $data = M()
     }

@@ -8,10 +8,13 @@ class IndexController extends Controller {
 //    $this->show("<h1>test<h1>");
       $this->display();
     }
+    public function self_center() {
+      $this -> display();
+    }
     public function test() {
       echo 'test1111';
     }
-    public function editResume() {
+    public function edit_resume() {
 
     }
 }
