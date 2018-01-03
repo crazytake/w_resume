@@ -1,12 +1,7 @@
-<<<<<<< HEAD
 .htaccess
-.idea
 /Application/Runtime/
 /Application/Admin/Conf/config.php
-=======
-/.htaccess
 /.idea
 /Application/Runtime
 /Uploads
 .idea
->>>>>>> kel

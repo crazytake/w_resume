@@ -7,6 +7,7 @@ return array(
     'new/:name'    => 'News/read',
     // 'editresume'   => 'EditResume/EditResume',
     'createresume' => 'EditResume/create_resume',
+    'self'=>'Index/self_center',
     // 'uploadImg'    => array('EditResume/UploadImg','', array('method' => 'POST')),
     // array('uploadImg', 'EditResume/UploadImg', '', array('method' => 'POST')),
   ),
