@@ -23,7 +23,7 @@ header .logo{
 }
 
 header .x_headNav {float: right;margin-right: 120px;position: relative;}
-header .x_login_link {padding-top: 20px;float: right;width: auto;}
+header .x_login_link {padding-top: 20px;float: right;width: auto;margin-right: 50px;}
 header .x_login_link a{
 	font-size: 16px;
     display: inline-block;

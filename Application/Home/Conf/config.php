@@ -5,9 +5,15 @@ return array(
     'new/:year\d/:month\d'  => 'News/archive',
     'new/:id\d'    => 'News/read',
     'new/:name'    => 'News/read',
-    // 'editresume'   => 'EditResume/EditResume',
     'createresume' => 'EditResume/create_resume',
     'self'=>'Index/self_center',
+    'set/username'=>'SetSelf/set_username',
+    'set/phone'=>'SetSelf/set_phone',
+    'set/email'=>'SetSelf/set_email',
+    'set/wechat'=>'SetSelf/set_wechat',
+    'set/pwd'=>'SetSelf/set_pwd',
+
+
     // 'uploadImg'    => array('EditResume/UploadImg','', array('method' => 'POST')),
     // array('uploadImg', 'EditResume/UploadImg', '', array('method' => 'POST')),
   ),
