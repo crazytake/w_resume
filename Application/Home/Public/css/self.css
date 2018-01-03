@@ -1,48 +1,81 @@
-.inner-box{
-  margin: 50px auto;
-  width: 980px;
-  height: 500px;
-  box-shadow: 0 0 10px 0px;
+.h-bg{
+  background-color: #2c7;
+  width: 100%;
+  height: 300px;
+  background-color: #2c7;
+  position: absolute;
+  top: 80px;
+  z-index: -1;
 }
-h1{
-  text-align: center;
-  margin-top: 50px;
+.inner{
+  width: 800px;
+  margin: 50px auto;
+
+}
+.inner h1{
+  margin-bottom: 50px;
 }
 .head{
+  width: 100%;
+  height: 200px;
+  z-index: 99;
+  background-color: #fff;
   overflow: hidden;
 }
-.head-pic{
-  margin: 50px auto 20px;
+.head-bd{
   width: 100px;
   height: 100px;
   border-radius: 50px;
-  border: 1px solid;
+  border: 1px solid #999;
+  margin: 50px auto 20px;
 }
-.head-pic a{
+.head-bd a{
+  opacity: 0;
   display: inline-block;
   width: 100px;
   height: 100px;
   line-height: 100px;
   text-align: center;
   border-radius: 50px;
-  opacity: 0;
+  background-color: rgba(0,0,0,.5);
 }
-.head-pic a:hover{
-  opacity: 1;
-  background-color: rgba(0,0,0,.3);
+.head-bd a:hover{
+  opacity:1;
 }
-.btn-c{
+.btn-hc{
+  display: block;
   width: 80px;
   height: 30px;
   line-height: 30px;
-  display: block;
-  margin: 0 auto;
   text-align: center;
+  margin: 0 auto;
+  border: 1px solid #2c7;
   color: #2c7;
+  border-radius: 5px;
+  cursor: pointer;
+}
+a.btn-hc:hover,a.btn-hc:active,a.btn-hc:focus,a.btn-hc:link{
   border: 1px solid #2c7;
   border-radius: 5px;
-}
-a.btn-c:link,a.btn-c:hover,a.btn-c:active,a.btn-c:focus{
-  border: 1px solid #2c7;
   color: #2c7;
+  cursor: pointer;
+}
+.member-index{
+  margin-top: 30px;
+}
+.member-index ul{
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 200px;
+}
+.member-index li{
+  height: 30px;
+  line-height: 30px;
+
+}
+.member-index li span{
+  display: inline-block;
+  width: 200px;
+  margin-left: 10px;
 }
