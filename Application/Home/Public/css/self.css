@@ -67,15 +67,16 @@ a.btn-hc:hover,a.btn-hc:active,a.btn-hc:focus,a.btn-hc:link{
   padding: 0;
   width: 80%;
   margin: 0 auto;
-  padding-left: 200px;
+  padding-left: 164px;
 }
 .member-index li{
   height: 30px;
   line-height: 30px;
-  
+
 }
 .member-index li span{
   display: inline-block;
   width: 200px;
-  margin-left: 10px;
+  margin:0 10px;
+  text-align: center;
 }
