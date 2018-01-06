@@ -206,7 +206,7 @@ var saveModuleItem = function(){
         project_contents = document.getElementsByName('project_contents')[0].value;
     var listItem = document.createElement('div');
     listItem.className = 'project-list-item';
-    if(company&&place&&c_stime&&c_etime){
+    if(project&&duty&&p_stime&&p_etime){
       var html = '<div class="line clearfix">'+
                   '<span class="project-name" data-value="'+project+'">'+project+'</span>'+
                   '<span class="duty-name" data-value="'+duty+'">'+duty+'</span>'+
@@ -244,7 +244,7 @@ var getData = function(formClass){
         'company':document.getElementsByClassName('company-name')[i].getAttribute('data-value'),
         'place':document.getElementsByClassName('place-name')[i].getAttribute('data-value'),
         'last_time':document.getElementsByClassName('c-last-time')[i].getAttribute('data-value'),
-        'work_contents':document.getElementsByClassName('work-contents')[i].getAttribute('data-value');
+        'work_contents':document.getElementsByClassName('work-contents')[i].getAttribute('data-value')
       }
     }else if(formClass == 'project-list'){
       data[i] = {
