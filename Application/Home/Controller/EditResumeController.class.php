@@ -1,111 +1,153 @@
 <?php
-  namespace Home\Controller;
-  use Think\Controller;
+namespace Home\Controller;
+use Think\Controller;
+use Home\Model\ResumeModel;
 
-  Class EditResumeController extends Controller {
+Class EditResumeController extends Controller
+{
     // public function EditResume() {
     //   echo "test";
     //
     //   $this->display();
-    // }
-    public function create_resume() {
-      $this->display();
+    // }\
+
+    public function create_resume()
+    {
+        $this->display();
     }
-    public function upload_img(){
-      var_dump($_FILES['img']);
-      if(!$_FILES){
-          echo "111";
-      }
-      if($this->method = 'post'){
+
+    public function upload_img()
+    {
+        $Resume = D('Resume');
+        $Resume->create();
+        $userId = 132;
+        $templateId = 21;
         $config = array(
-          'maxSize' => 3145728,
-          'rootPath'=> './Uploads/',
-          'savePath'=>'',
-          'exts'    => array('jpg', 'gif', 'png', 'jpeg'),
+            'maxSize' => 3145728,
+            'rootPath' => './Application/Home/Uploads/',
+            'savePath' => 'headPic/' . $userId . '/',
+            'exts' => array('jpg', 'gif', 'png', 'jpeg'),
+            'autoSub' => false,
+            'replace' => true,
+            'saveName' => array('uniqid', ''),
         );
         $upload = new \Think\Upload($config);//实例化上传类
 
-        $info   =   $upload->upload();
-        echo "test1".$_FILES['img'].$info.$upload;
-      }
-
-
-      // 上传文件
-
-      // $this -> display();
-      // if(!$info) {// 上传错误提示错误信息
-      //     $this->error($upload->getError());
-      // }else{// 上传成功
-      //   foreach($info as $file){
-      //     echo $file['savepath'].$file['savename'];
-      //   }
-      //   $this->success('上传成功！');
-      // }
+        $info = $upload->upload();
+        if (!$info) {
+            $this->error($upload->getError());
+            $res['status'] = 0;
+            $res['content'] = '上传失败！';
+            $this->ajaxReturn($res);
+        } else {
+            if($_POST['resume_id']){
+                $savePath = $info['img']['savepath'] . $info['img']['savename'];
+                $data['head_path'] = $savePath;
+                $Resume->update_resume($_POST['resume_id'],$data);
+                $res['status'] = 1;
+                $res['content'] = '上传成功！';
+                $this->ajaxReturn($res);
+            }else{
+                $savePath = $info['img']['savepath'] . $info['img']['savename'];
+                $data['user_id'] = $userId;
+                $data['template_id'] = $templateId;
+                $data['head_path'] = $savePath;
+                $resume_id = $Resume->create_resume($data);
+                $res['status'] = 1;
+                $res['content'] = '上传成功！';
+                $res['resume_id'] = $resume_id;
+                $this->ajaxReturn($res);
+            }
+        }
     }
-    public function save_info() {
-      var_dump($_POST);
-//      $data = M()
+
+    public function save_info()
+    {
+        $Resume = D('Resume');
+        $data = json_decode(file_get_contents("php://input"),true);
+        if ($data['resume_id']) {
+            echo $data['resume_id'];
+        } else {
+            $module_name = array_keys($data)[1];
+            $data[$module_name] = json_encode($data[$module_name]);
+            $resume_id = $Resume->create_resume($data);
+            $res['status'] = 1;
+            $res['content'] = '保存成功！';
+            $res['resume_id'] = $resume_id;
+            $this->ajaxReturn($res);
+        }
     }
 
-    // protected $resume = array(
-    //   'baseinfo' => array(
-    //     'username' => 'An',
-    //     'birthday' => '1993/06',
-    //     'location' => '广州',
-    //     'experience' => '一年工作经验',
-    //     'phone' => '13654822549',
-    //     'oneword' => '没什么好说的'
-    //   ),
-    //   'intension' => array(
-    //     'expect_job' => 'php开发',
-    //     'expect_type'=> '全职',
-    //     'expect_city'=> '广州',
-    //     'entry_time' => '随时到岗'
-    //   ),
-    //   'education' => array(
-    //     [0]=> array(
-    //       'school_name' => '华师',
-    //       'major' => '网络工程',
-    //       'qualification' => '本科',
-    //       'graduation_year' => '2016',
-    //       'study_contents' => '........',
-    //     ),
-    //     [1] => array(
-    //       'school_name' => '华师',
-    //       'major' => '网络工程',
-    //       'qualification' => '本科',
-    //       'graduation_year' => '2016',
-    //       'study_contents' => '........',
-    //     )
-    //   ),
-    //   'work_history' => array(
-    //     [0] => array(
-    //       'company' => 'xx',
-    //       'place' => 'php开发工程师',
-    //       'c_stime' => '2016/06',
-    //       'c_etime' => '2017/01',
-    //       'work_contents' => 'xxxxx'
-    //     ),
-    //     [1] => array(
-    //         'company' => 'xx',
-    //         'place' => 'php开发工程师',
-    //         'c_stime' => '2016/06',
-    //         'c_etime' => '2017/01',
-    //         'work_contents' => 'xxxxx'
-    //     )
-    //   ),
-    //   'project_history' => array(
-    //     [0] => array(
-    //       'project_name' => 'xx',
-    //       'project_duty' => '前端开发',
-    //       'p_stime' => '2016/06',
-    //       'p_etime' => '2016/09',
-    //       'project_contents' => 'xxx'
-    //     )
-    //   ),
-    //   'evalution' => array(
-    //     'eva_contents' => 'xxx'
-    //   )
-    // );
-  }
-  ?>
+    protected function save_change($arr, $type)
+    {
+        $resume[$type] = $arr;
+        return $resume;
+    }
+//  protected $resume = array(
+//  'head_pic'=> array(
+//  'savepath'=> '',
+//  'savename'=>'',
+//  ),
+//  'baseinfo' => array(
+//  'username' => '',
+//  'birthday' => '',
+//  'location' => '',
+//  'experience' => '',
+//  'phone' => '',
+//  'oneword' => ''
+//  ),
+//  'intension' => array(
+//  'expect_job' => '',
+//  'expect_type'=> '',
+//  'expect_city'=> '',
+//  'entry_time' => ''
+//  ),
+//  'education' => array(
+//  [0]=> array(
+//  'school_name' => '',
+//  'major' => '',
+//  'qualification' => '',
+//  'graduation_year' => '',
+//  'study_contents' => '',
+//  ),
+//  [1] => array(
+//  'school_name' => '',
+//  'major' => '',
+//  'qualification' => '',
+//  'graduation_year' => '',
+//  'study_contents' => '',
+//  )
+//  ),
+//  'work_history' => array(
+//  [0] => array(
+//  'company' => '',
+//  'place' => '',
+//  'c_stime' => '',
+//  'c_etime' => '',
+//  'work_contents' => ''
+//  ),
+//  [1] => array(
+//  'company' => '',
+//  'place' => '',
+//  'c_stime' => '',
+//  'c_etime' => '',
+//  'work_contents' => ''
+//  )
+//  ),
+//  'project_history' => array(
+//  [0] => array(
+//  'project_name' => '',
+//  'project_duty' => '',
+//  'p_stime' => '',
+//  'p_etime' => '',
+//  'project_contents' => ''
+//  )
+//  ),
+//  'evalution' => array(
+//  'eva_contents' => ''
+//  )
+//  );
+
+}
+
+?>

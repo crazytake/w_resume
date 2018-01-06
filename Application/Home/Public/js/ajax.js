@@ -19,7 +19,7 @@ var ajax = function(){
     xhr.setRequestHeader("Content-Type",ajaxData.contentType);
   }
   xhr.send(ajaxData.data);
-  xhr.onReadystatechange = function() {
+  xhr.onreadystatechange = function() {
     if(xhr.readyState == 4) {
       if(xhr.status == 200) {
         ajaxData.success(xhr.responseText)

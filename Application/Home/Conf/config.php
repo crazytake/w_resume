@@ -12,10 +12,6 @@ return array(
     'set/email'=>'SetSelf/set_email',
     'set/wechat'=>'SetSelf/set_wechat',
     'set/pwd'=>'SetSelf/set_pwd',
-
-
-    // 'uploadImg'    => array('EditResume/UploadImg','', array('method' => 'POST')),
-    // array('uploadImg', 'EditResume/UploadImg', '', array('method' => 'POST')),
   ),
   'URL_MAP_RULES' =>  array(
     'new/test' => 'News/test',
@@ -26,7 +22,7 @@ return array(
     '__IMG__' => __ROOT__.'/Application/Home/Public/img',
     '__COMMON__'  => __ROOT__.'/Application/Home/Public/common',
     '__PUBLIC__'  => __ROOT__.'/Application/Home/Public/',
-    '__UPLOAD__'  => __ROOT__.'/Application/Home/Upload'
+    '__UPLOAD__'  => __ROOT__.'/Application/Home/Uploads'
   )
 )
 ?>

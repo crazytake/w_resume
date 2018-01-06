@@ -12,18 +12,19 @@
     <script type="text/javascript" src="__JS__/ajax.js"></script>
   </head>
   <body>
+    <div id="tips" class="hide"></div>
     <include file="Common:header" />
     <div class="container ">
       <div class="edit-area">
-        <form method="post" enctype="multipart/form-data" id="resume-form">
           <section class="base-info edit-block">
             <div class="head-pic">
-              <div class="img">
-                <img src="__IMG__/miao.jpg" alt="">
-                <div class="img-hover">上传图片</div>
-                <input type="file" name="head_pic" id="head-pic">
-
-              </div>
+              <form method="post" enctype="multipart/form-data" id="resume-form">
+                <div class="img">
+                  <img id="headPic" src="__UPLOAD__/headPic/132/13221.jpg" alt="">
+                  <div class="img-hover">上传图片</div>
+                  <input type="file" name="head_pic" id="head-pic">
+                </div>
+              </form>
             </div>
             <div class="base-text">
                 <div class="line clearfix">
@@ -123,7 +124,7 @@
                   <input type="text" name="oneword" value="">
                 </div>
             </div>
-            <button class="btn btn-save" type="button" data-block="baseInfo">保存</button>
+            <button class="btn btn-save" type="button" data-block="base_info">保存</button>
 
           </section>
           <!-- baseinfo end  -->
@@ -176,27 +177,31 @@
           <section class="education edit-block hide">
             <div class="title">
               <span>教育经历</span>
+              <button class="btn btn-save" type="button" data-block="education">保存</button>
               <button class="btn btn-add" type="button" data-target="education-edit">添加</button>
             </div>
             <div class="info">
+              <form action="" id="education-edit">
               <div class="education-edit hide">
                 <div class="line">
                   <div class="school">
                     <span class="tit">学校名称</span>
-                    <input type="text" name="school_name" value="">
+                    <input type="text" name="school_name" value="" required="required">
+                    <i>*</i>
                   </div>
                 </div>
                 <div class="line">
                   <div class="object">
                     <span class="tit">所学专业</span>
-                    <input type="text" name="major">
+                    <input type="text" name="major" required="required">
+                    <i>*</i>
                   </div>
                 </div>
                 <div class="line clearfix">
                   <div class="qualification clearfix">
                     <span class="tit">学历</span>
                     <select class="" name="qualification">
-                      <option value="">本科</option>
+                      <option value="本科">本科</option>
                     </select>
                   </div>
                   <div class="graduate-date clearfix">
@@ -223,20 +228,21 @@
                   <span class="tit">学习内容</span>
                   <textarea name="study_content" rows="8" cols="80"></textarea>
                 </div>
-                <button class="btn btn-save" type="button" data-block="education">保存</button>
+                <button class="btn btn-confirm" type="button">确定</button>
                 <button class="btn btn-cancel" type="button">取消</button>
               </div>
-              <div class="education-list">
+              </form>
+              <div class="education-list module-list">
                 <div class="education-list-item">
                   <div class="line clearfix">
-                    <span class="school-name">华南师范大学</span>
-                    <span class="qualification-saved">本科</span>
-                    <span class="major-name">|网络工程</span>
-                    <span class="graduate-year">2016毕业</span>
+                    <span class="school-name" data-value="华南师范大学">华南师范大学</span>
+                    <span class="qualification-saved" data-value="本科">本科</span>
+                    <span class="major-name" data-value="网路工程">|网络工程</span>
+                    <span class="graduate-year" data-value="2016">2016毕业</span>
                   </div>
-                  <div class="">主修计算机网络等</div>
+                  <span class="study-content" data-value="主修计算机网络等">主修计算机网络等</span>
+                  <button class="btn-del btn" type="button">删除</button>
                 </div>
-
               </div>
             </div>
           </section>
@@ -244,9 +250,12 @@
           <section class="job-exp edit-block hide">
             <div class="title">
               <span>工作经历</span>
+              <button class="btn btn-save" type="button" data-block="work_history">保存</button>
+
               <button class="btn btn-add" type="button" data-target="job-edit">添加</button>
             </div>
             <div class="info">
+              <form action="" id="job-edit">
               <div class="job-edit hide">
                   <div class="line company">
                     <span class="tit">公司</span>
@@ -336,10 +345,11 @@
                     <span class="tit">工作内容</span>
                     <textarea name="work_contents" rows="8" cols="80"></textarea>
                   </div>
-                  <button class="btn btn-save" type="button" data-block="work_history">保存</button>
+                  <button class="btn btn-confirm" type="button" >确定</button>
                   <button class="btn btn-cancel" type="button">取消</button>
               </div>
-              <div class="job-list">
+              </form>
+              <div class="job-list module-list">
                 <div class="job-list-item">
                   <div class="line clearfix">
                     <span class="company-name">xx公司</span>
@@ -349,7 +359,7 @@
                       <span class="c-etime">2016/12</span>
                     </div>
                   </div>
-                  <div class="">主要负责后台开发</div>
+                  <span class="work-contents">主要负责后台开发</span>
                 </div>
               </div>
             </div>
@@ -358,9 +368,11 @@
           <section class="project edit-block hide">
             <div class="title">
               <span>项目经历</span>
+              <button class="btn btn-save" type="button" data-block="project_history">保存</button>
               <button class="btn btn-add" type="button" data-target="project-edit">添加</button>
             </div>
             <div class="info">
+              <form action="" id="project-edit">
               <div class="project-edit hide">
                 <div class="line name">
                   <span class="tit">项目名称</span>
@@ -448,12 +460,13 @@
                 </div>
                 <div class="line project-content">
                   <span class="tit">项目内容</span>
-                  <textarea name="project_content" rows="8" cols="80"></textarea>
+                  <textarea name="project_contents" rows="8" cols="80"></textarea>
                 </div>
-                <button class="btn btn-save" type="button">保存</button>
+                <button class="btn btn-confirm" type="button" >确定</button>
                 <button class="btn btn-cancel" type="button">取消</button>
               </div>
-              <div class="project-list">
+              </form>
+              <div class="project-list module-list">
                 <div class="project-list-item">
                   <div class="line clearfix">
                     <div class="line clearfix">
@@ -483,7 +496,6 @@
           <section class="custom edit-block hide">
 
           </section>
-        </form>
       </div>
       <div class="r-bar" id="r-bar">
         <ul class="nav" id="nav-main1">

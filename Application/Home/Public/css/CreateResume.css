@@ -247,6 +247,11 @@ section .title{
   position: relative;
   width: 100%
 }
+.education .btn-save{
+  position: absolute;
+  right: 100px;
+  top: 16px;
+}
 .education .tit{
   display: block;
   margin: 10px 0;
@@ -265,9 +270,13 @@ section .title{
   margin-right: 20px;
 }
 .education-list-item{
-  height: 50px;
+  position: relative;
+  /* height: 50px; */
   background-color: #ffffe8;
-  padding: 20px 10px;
+  padding: 50px 0;
+  border-top: 1px solid #2c7;
+}
+.education-list-item span{
 }
 .education-list-item .school-name{
   float: left;
@@ -283,10 +292,20 @@ section .title{
   float: right;
   margin-right: 50px;
 }
+.education-list-item .study-content{
+  display: block;
+  width: 80%;
+  margin-bottom: 50px;
+}
 /* job */
 .job-exp{
   position: relative;
   width: 100%;
+}
+.job-exp .btn-save{
+  position: absolute;
+  right: 100px;
+  top: 16px;
 }
 .job-exp .tit{
   display: block;
@@ -305,6 +324,7 @@ section .title{
   margin-bottom: 20px;
 }
 .job-list-item {
+  position: relative;
   height: 50px;
   background-color: #ffffe8;
   padding: 20px 10px;
@@ -339,6 +359,7 @@ section .title{
   margin-bottom: 20px;
 }
 .project-list-item {
+  position: relative;
   height: 50px;
   background-color: #ffffe8;
   padding: 20px 10px;
@@ -361,7 +382,7 @@ section .title{
 }
 .evalution .btn-save{
   float: right;
-  margin-top: 20px;  
+  margin-top: 20px;
 }
 .evalution textarea{
   width: 80%;
@@ -422,4 +443,21 @@ input.c_stime, input.c_etime{
   text-align: center;
   user-select: none;
   cursor: pointer;
+}
+#tips{
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  color: #2c7;
+  background-color: #fdfdcb;
+  z-index: 999;
+  line-height: 30px;
+  text-align: center
+}
+.btn-del{
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
 }
