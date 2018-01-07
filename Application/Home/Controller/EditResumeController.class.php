@@ -35,7 +35,7 @@ Class EditResumeController extends Controller
 
         $info = $upload->upload();
         if (!$info) {
-            $this->error($upload->getError());
+//            $this->error($upload->getError());
             $res['status'] = 0;
             $res['content'] = '上传失败！';
             $this->ajaxReturn($res);
