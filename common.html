@@ -1,0 +1,36 @@
+		<div class="lefter">
+			<div class="logo">
+				<a href="/" target="_blank">KWG后台管理系统</a>
+			</div>
+		</div>
+		<div class="righter nav-navicon" id="admin-nav">
+			<div class="mainer">
+				<div class="admin-navbar">
+					<span class="float-right">
+                    <a class="button button-little bg-main" href="http://www.pintuer.com" target="_blank">前台首页</a>
+                    <a class="button button-little bg-yellow" href="login.html">注销登录</a>
+                </span>
+					<ul class="nav nav-inline admin-nav">
+						<volist name="nav" id="vo">
+							<li <if condition="$vo.nav_controller eq $controller ">class="active"</if> >
+								<a href="#">{$vo.nav_name}</a>
+								<ul>
+									<volist name="vo['nav_menu']" id="v">
+										<li <if condition="$v.permission_function eq $action ">class="active"</if> ><a href="{$v.permission_function}">{$v.permission_name}</a></li>
+									</volist>
+								</ul>
+							</li>
+							
+						</volist>
+					</ul>
+				</div>
+				<div class="admin-bread">
+					<span>您好，{$Think.session.username}，欢迎您的光临。</span>
+					<ul class="bread">
+						<li><a href="index.html" class="icon-home"> 开始</a></li>
+						<li><script>document.write($(".admin-navbar .nav li.active").html());</script></li>
+						<li><script>document.write($(".admin-navbar .nav li ul li.active").html());</script></li>
+					</ul>
+				</div>
+			</div>
+		</div>

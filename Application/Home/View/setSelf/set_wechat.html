@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="__CSS__/base.css">
+    <link rel="stylesheet" href="__ROOT__/Public/common/pintuer/pintuer.css" />
+    <link rel="stylesheet" href="__CSS__/header.css">
+    <link rel="stylesheet" href="__CSS__/self.css">
+    <script type="text/javascript" src="__ROOT__/Public/Common/pintuer/jquery.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/common/pintuer/pintuer.js"></script>
+  </head>
+  <body class="setBlock">
+    <include file="Common:header"/>
+    <div class="container">
+      <div class="inner">
+        <h1>修改微信</h1>
+        <div class="set-box">
+          <form class="" action="" method="post">
+            <div class="form-group">
+              <div class="field">
+                <div class="input-group">
+                  <span class="addon">微信名</span>
+                  <input type="text" class="input">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="field">
+                <div class="input-group">
+                  <span class="addon">验证码</span>
+                  <input type="text" class="input">
+                  <img src="" alt="" class="verify-code">
+                  <img class="verify-code" onclick="this.src='__CONTROLLER__/verify/'+Math.random();" src="__CONTROLLER__/verify">
+                </div>
+              </div>
+            </div>
+
+            <button class="button bg-green btn-u" type="submit">确认修改</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

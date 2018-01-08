@@ -1,3 +1,8 @@
-/.htaccess
+.htaccess
+/Application/Runtime/
+/Application/Admin/Conf/config.php
 /.idea
 /Application/Runtime
+/Uploads
+.idea/
+/Application/Home/Uploads/

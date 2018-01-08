@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>kwg后台管理系统</title>
+<link rel="stylesheet" href="__PUBLIC__/css/pintuer.css">
+<link rel="stylesheet" href="__PUBLIC__/css/admin.css">
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/pintuer.js"></script>
+</head>
+
+<body>
+	<include file="Common:common" />
+	<!--引用common文件即可-->
+		<div class="admin">
+			<div class="line-big">
+				<div class="xm12">
+					<div class="alert alert-yellow"><span class="close"></span><strong>注意：</strong>您有5条未读信息，<a href="#">点击查看</a>。</div>
+					<div class="alert">
+						<h4>简历模板管理系统首页</h4>
+						<p class="text-gray padding-top">欢迎登陆简历模板管理系统的后台，你可以在这里进行简历模板的管理，用户管理，文章管理，管理员管理等多种功能，下面是便捷入口：</p>
+						<a target="_blank" class="button bg-dot icon-user" href="#">用户管理</a>
+						<a target="_blank" class="button bg-main icon-file-text" href="#"> 文章管理</a>
+						<a target="_blank" class="button border-main icon-file" href="#"> 简历模板管理</a>
+					</div>
+					<div class="panel">
+						<div class="panel-head"><strong>系统信息</strong></div>
+						<table class="table">
+							<tr>
+								<th colspan="2">服务器信息</th>
+								<th colspan="2">系统信息</th>
+							</tr>
+							<tr>
+								<td width="110" align="right">操作系统：</td>
+								<td>{:php_uname('s')}</td>
+								<td width="90" align="right">系统开发：</td>
+								<td>KWG</td>
+							</tr>
+							<tr>
+								<td align="right">PHP版本：</td>
+								<td>{:PHP_VERSION}</td>
+								<td align="right">前端框架：</td>
+								<td>pintuer</td>
+							</tr>
+							<tr>
+								<td align="right">数据库：</td>
+								<td>MySQL</td>
+								<td align="right">版本号：</td>
+								<td>V1.0</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+	</div>	
+</body>
+</html>
