@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+     <meta charset="UTF-8">
+     
+     <link rel="stylesheet" href="__CSS__/base.css">
+     <link rel="stylesheet" href="__ROOT__/Public/common/pintuer/pintuer.css" />
+     <link rel="stylesheet" href="__CSS__/log_reg.css">
+     <script type="text/javascript" src="__ROOT__/Public/Common/pintuer/jquery.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/common/pintuer/pintuer.js"></script>
+     <title>用户注册</title>
+  </head>
+  
+  <body>
+  
+     <!--<div id="x_phonereg_show" class="x_logreg_bg">
+     <div class="x_reg">
+         <div class="x_reg_content">
+            <div class="x_reg_head">
+               <p>手机注册<span id="x_logreg_out1" class="icon-times"></span></p> 
+            </div>
+            <div class="x_reg_info">
+               <form class="x_reg_form">
+                  <div class="x_reginfo_details">
+                      <span class="">手机号</span><input type="text" name="x_userphone" placeholder="请输入您的手机号">
+                  </div>
+                  <div class="x_reginfo_details">
+                      <span class="">密码</span><input type="text" name="x_password" placeholder="请设置密码">
+                  </div>
+                  <div class="x_reginfo_details">
+                      <span class="">确认密码</span><input type="text" name="x_password1" placeholder="请确认密码">
+                  </div>
+                  <div class="x_reginfo_details">
+                      <span class="">验证码</span><input type="text" name="x_vercode" placeholder="请输入验证码"><img src="img/y.jpg">
+                  </div>
+                  <div class="x_reginfo_details">
+                      <span class="">手机验证码</span><input type="text" name="x_phonecode" placeholder="请输入手机验证码"><input value="获取验证码" class="x_getcode">
+                  </div>
+                  
+                  <div class="x_reg_btn">
+                     <button type="button"><input style="display:none">注册</button>
+                   </div>
+               </form>
+            </div>
+            <div class="x_reg_bot">
+                <a href="#" class="x_QQlog">QQ登录</a>
+                <a class="x_comelog">已注册？<span id="x_golog" class="x_golog">登录</span></a>
+                <a id="x_emailreg_path" class="x_reg_path">邮箱注册</a>
+            </div>   
+         </div>
+     </div>
+  </div>
+  
+    <div id="x_emailreg_show" class="x_logreg_bg">
+     <div class="x_reg x_reg_email">
+         <div class="x_reg_content">
+            <div class="x_reg_head">
+               <p>邮箱注册<span id="x_logreg_out2" class="icon-times"></span></p> 
+            </div>
+            <div class="x_reg_info">
+               <form class="x_reg_form">
+                  <div class="x_reginfo_details">
+                      <span class="">邮箱</span><input type="text" name="x_useremail" placeholder="请输入您的邮箱">
+                  </div>
+                  <div class="x_reginfo_details">
+                      <span class="">密码</span><input type="text" name="x_password" placeholder="请设置密码">
+                  </div>
+                  <div class="x_reginfo_details">
+                      <span class="">确认密码</span><input type="text" name="x_password1" placeholder="请确认密码">
+                  </div>
+                  <div class="x_reginfo_details">
+                      <span class="">验证码</span><input type="text" name="x_vercode" placeholder="请输入验证码"><img src="img/y.jpg">
+                  </div>
+                  <div class="x_reg_btn">
+                     <button type="button"><input style="display:none">注册</button>
+                   </div>
+               </form>
+            </div>
+            <div class="x_reg_bot">
+                <a href="#" class="x_QQlog">QQ登录</a>
+                <a class="x_comelog">已注册？<span id="x_golog1" class="x_golog">登录</span></a>
+                <a id="x_phonereg_path1" class="x_reg_path">手机注册</a>
+            </div>   
+         </div>
+     </div>
+  </div>-->
+  
+  <div id="x_usernamereg_show" class="x_logreg_bg">
+     <div class="x_reg x_reg_username">
+         <div class="x_reg_content">
+            <div class="x_reg_head">
+               <p>用户名注册</p> 
+            </div>
+            <div class="x_reg_info">
+               <form class="x_reg_form" action="" method="psot">
+                  
+                  <div class="x_reginfo_details">
+                      <label>用户名：</label><input type="text" name="username" placeholder="请输入您的用户名">
+                  </div>
+                  <div class="x_reginfo_details">
+                      <label>手机号：</label><input type="text" name="phone" placeholder="请输入您的手机号">
+                  </div>
+                  <div class="x_reginfo_details">
+                      <label>邮箱：</label><input type="text" name="email" placeholder="请输入您的邮箱">
+                  </div>
+                  <div class="x_reginfo_details">
+                      <label>密码：</label><input type="password" name="password" placeholder="请设置密码">
+                  </div>
+                  <div class="x_reginfo_details">
+                      <label>确认密码：</label><input type="password" name="password1" placeholder="请确认密码">
+                  </div>
+                  <div class="x_reginfo_details">
+                     <label  for="pwd">验证码：</label>
+                     <input type="text" name="verify" id="verify" size="10" class="admin_input_style" /><img style=" float:right;cursor:pointer;vertical-align: bottom; border-left:1px solid #CCC;" width="120" height="44" onclick="this.src='__CONTROLLER__/verify/'+Math.random();" src="__CONTROLLER__/verify">
+                  </div>
+                  
+                  <div class="x_reg_btn">
+                     <button type="submit"><input style="display:none">注册</button>
+                   </div>
+               </form>
+            </div>
+            <div class="x_reg_bot">
+                <a href="#" class="x_QQlog">QQ登录</a>
+                <a href="__APP__/Login/login" class="x_comelog">已注册？<span id="x_golog2" class="x_golog">登录</span></a>
+                <a id="x_phonereg_path" class="x_reg_path">手机注册</a>
+            </div>   
+         </div>
+     </div>
+  </div>
+      
+  </body>
+
+
+</html>

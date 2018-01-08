@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+     <meta charset="UTF-8">
+     
+     <link rel="stylesheet" href="__CSS__/base.css">
+     <link rel="stylesheet" href="__ROOT__/Public/common/pintuer/pintuer.css" />
+     <link rel="stylesheet" href="__CSS__/log_reg.css">
+     <script type="text/javascript" src="__ROOT__/Public/Common/pintuer/jquery.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/common/pintuer/pintuer.js"></script>
+     <title>用户登录</title>
+  </head>
+  
+  <body>
+    <div id="x_logshow" class="x_logreg_bg">
+      <div  class="x_login" >
+         <div class="x_login_content">
+             <div class="x_login_head">
+                <p>账户登录<!--<span id="x_logreg_out" class="icon-times"></span>--></p> 
+             </div>
+             <div class="x_login_info">
+                <form class="x_log_form" action="" method="post">
+                   <div class="x_loginfo_detalis">
+                     <!--<span class="icon-user"></span>-->
+                     <label>用户名：</label>
+                     <input type="text" name="username" placeholder="手机号 / 邮箱">
+                   </div> 
+                   <div class="x_loginfo_detalis">
+                     <!--<span class="icon-lock"></span>-->
+                     <label>密码：</label>
+                     <input type="password" name="password" placeholder="密码">
+                   </div>
+                   <div class="x_loginfo_detalis">
+                     <label  for="pwd">验证码：</label>
+                     <input type="text" name="verify" id="verify" size="10" class="admin_input_style" /><img style=" float:right;cursor:pointer;vertical-align: bottom; border-left:1px solid #CCC;" width="120" height="44" onclick="this.src='__CONTROLLER__/verify/'+Math.random();" src="__CONTROLLER__/verify">
+                   </div>
+                   <div class="x_login_btn">
+                     <button type="submit"><input style="display:none">登录</button>
+                   </div>
+                </form>
+             </div>  
+             <div class="x_login_bot">
+                <a href="#" class="x_QQlog">QQ登录</a>
+                <a class="x_pasmiss">忘记密码？</a>
+               <!-- <a id="x_phonereg_path" class="x_reg_path">手机注册</a>-->
+                <a href="__APP__/Reg/reg.html" id="x_usernamereg_path" class="x_reg_path">用户名注册</a>
+             </div>
+         </div> 
+      </div>
+     </div>
+  </body>
+
+
+</html>
