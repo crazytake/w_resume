@@ -35,7 +35,7 @@ Class EditResumeController extends Controller
 
         $info = $upload->upload();
         if (!$info) {
-            $this->error($upload->getError());
+//            $this->error($upload->getError());
             $res['status'] = 0;
             $res['content'] = '上传失败！';
             $this->ajaxReturn($res);
@@ -66,7 +66,12 @@ Class EditResumeController extends Controller
         $Resume = D('Resume');
         $data = json_decode(file_get_contents("php://input"),true);
         if ($data['resume_id']) {
-            echo $data['resume_id'];
+            $module_name = array_keys($data)[1];
+            $data[$module_name] = json_encode($data[$module_name]);
+            $Resume->update_resume($data['resume_id'],$data);
+            $res['status'] = 1;
+            $res['content'] = '上传成功！';
+            $this->ajaxReturn($res);
         } else {
             $module_name = array_keys($data)[1];
             $data[$module_name] = json_encode($data[$module_name]);
@@ -83,70 +88,6 @@ Class EditResumeController extends Controller
         $resume[$type] = $arr;
         return $resume;
     }
-//  protected $resume = array(
-//  'head_pic'=> array(
-//  'savepath'=> '',
-//  'savename'=>'',
-//  ),
-//  'baseinfo' => array(
-//  'username' => '',
-//  'birthday' => '',
-//  'location' => '',
-//  'experience' => '',
-//  'phone' => '',
-//  'oneword' => ''
-//  ),
-//  'intension' => array(
-//  'expect_job' => '',
-//  'expect_type'=> '',
-//  'expect_city'=> '',
-//  'entry_time' => ''
-//  ),
-//  'education' => array(
-//  [0]=> array(
-//  'school_name' => '',
-//  'major' => '',
-//  'qualification' => '',
-//  'graduation_year' => '',
-//  'study_contents' => '',
-//  ),
-//  [1] => array(
-//  'school_name' => '',
-//  'major' => '',
-//  'qualification' => '',
-//  'graduation_year' => '',
-//  'study_contents' => '',
-//  )
-//  ),
-//  'work_history' => array(
-//  [0] => array(
-//  'company' => '',
-//  'place' => '',
-//  'c_stime' => '',
-//  'c_etime' => '',
-//  'work_contents' => ''
-//  ),
-//  [1] => array(
-//  'company' => '',
-//  'place' => '',
-//  'c_stime' => '',
-//  'c_etime' => '',
-//  'work_contents' => ''
-//  )
-//  ),
-//  'project_history' => array(
-//  [0] => array(
-//  'project_name' => '',
-//  'project_duty' => '',
-//  'p_stime' => '',
-//  'p_etime' => '',
-//  'project_contents' => ''
-//  )
-//  ),
-//  'evalution' => array(
-//  'eva_contents' => ''
-//  )
-//  );
 
 }
 
