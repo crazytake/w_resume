@@ -1,12 +1,12 @@
 <?php
-  
-  namespace Home\Controller;
-  use Think\Controller;
-  
-  class LoginController extends Controller{
+
+namespace Home\Controller;
+use Think\Controller;
+
+class UserController extends Controller {
 	
-		  
-	   public function login(){
+    /*登录*/
+    public function login(){
         if(IS_POST){
 			$user=D('User');
             if($user->create($_POST,4)){
@@ -26,28 +26,46 @@
         }else{
            $this->display('login');
         }  
-      } 
+    } 
 	  
-	  /* 退出登录 */
+	/* 退出登录 */
     public function logout(){
         if(session('username')){
             //D('Member')->logout();
             session('username',null);
 			session('id',null);
             session('[destroy]');
-            $this->success('退出成功！', U('/Index/index'));
+            $this->success('退出成功！', U('Index/index'));
         } else {
             $this->redirect('/Index/index');
         }
     }
-		  
-	  public function verify(){
+   
+    /*注册*/
+    public function reg(){
+		 $this->display();
+		 if(IS_POST){
+			$user=D('User');
+            if($user->create($_POST,5)){
+                if($user->add()){
+                    $this->success('注册成功，跳转中...',U('User/login'));
+                }else{
+                    $this->error('注册失败，请重新注册！',U('reg'));
+                }
+            }else{
+                $this->error($user->getError());
+            }
+            return;
+        }
+    } 
+   
+    /*验证码*/
+    public function verify(){
         $Verify =     new \Think\Verify();
         $Verify->fontSize = 30;
         $Verify->length   = 3;
         $Verify->useNoise = false;
         $Verify->entry();
-        }  
- }
- 
-?>
+        }
+}
+   
