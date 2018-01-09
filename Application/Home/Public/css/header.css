@@ -24,7 +24,7 @@ header .logo{
 
 header .x_headNav {float: right;margin-right: 120px;position: relative;}
 header .x_login_link {padding-top: 20px;float: right;width: auto;margin-right: 50px;}
-header .x_login_link a{
+header .x_login_link .x_login_box{
 	font-size: 16px;
     display: inline-block;
     float: right;
@@ -38,6 +38,9 @@ header .x_login_link a{
     transition: all .3s;
     -moz-transition: all .3s;
     -webkit-transition: all .3s;}
+.x_login_link span{font-size:16px; color:#2c7;margin-right:10px; font-weight:bold;}
+.x_login_link .x_logout{ font-size:14px; display:inline-block; height:20px;widht:20px;border-radius: 0px;color: #999;}
+	
 header .x_login_link a:hover{
 	background: #007954;
     border-color: #007954;

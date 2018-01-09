@@ -30,6 +30,29 @@ class CommonController extends Controller {
 		$permission_arr["Resume"][3]=array(15,0);
 */
 		
+		//下面的代码判断用户是否超出权限,如果当前操作没有在权限表中定义，则不作限制，否则，判定该操作是否在用户的权限范围内。
+		$permission=M("admin_permission");
+		$map["permission_controller"]=CONTROLLER_NAME;
+		$map["permission_function"]=ACTION_NAME;
+		$cur_permission_arr=$permission->where($map)->find();
+		if($cur_permission_arr!=null){
+			//判断是否有权限进行该操作
+			$is_allow=false;
+			foreach($permission_arr as $key=>$value){
+				if($key==CONTROLLER_NAME){
+					foreach($value as $v){
+						if($v[0]==$cur_permission_arr["id"]){
+							//当前操作被允许
+							$is_allow=true;
+						}
+					}	
+				}
+			}
+			if(!$is_allow){
+				//发出错误提示
+				$this->error('您没有权限执行该操作！');
+			}
+		}
 		
 		
 		
