@@ -9,7 +9,10 @@ class SetSelfController extends Controller
 
   public function set_username()
   {
-    # code...
+    if(IS_POST){
+      $User = M('User');
+      $User->create();
+    }
 
     $this->display();
   }

@@ -28,6 +28,8 @@
   border-radius: 50px;
   border: 1px solid #999;
   margin: 50px auto 20px;
+  overflow: hidden;
+  position: relative;
 }
 .head-bd a{
   opacity: 0;
@@ -39,8 +41,19 @@
   border-radius: 50px;
   background-color: rgba(0,0,0,.5);
 }
-.head-bd a:hover{
+.head-bd:hover a{
   opacity:1;
+  color: #2c7;
+  z-index: 9999;
+}
+.head-bd img, .head-bd input{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
 }
 .btn-hc{
   display: block;

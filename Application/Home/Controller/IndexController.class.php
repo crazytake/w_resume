@@ -12,14 +12,9 @@ class IndexController extends Controller {
       echo 'test1111';
     }
     public function self_center(){
-      $user = array(
-        'id' => '2',
-        'username' => 'kel',
-        'phone' => '123415463',
-        'email' => 'ss@xx.com',
-        'wechat_id' => 'kelle'
-      );
-      $this->assign('user',$user);
+      $User = D('User');
+      $data = $User->where('id=2')->select();
+      $this->assign('user',$data[0]);
       $this -> display();
     }
 }

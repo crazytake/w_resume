@@ -14,30 +14,14 @@
     <include file="Common:header"/>
     <div class="container">
       <div class="inner">
-        <h1>修改密码</h1>
+        <h1>修改邮箱</h1>
         <div class="set-box">
           <form class="" action="" method="post">
             <div class="form-group">
               <div class="field">
                 <div class="input-group">
-                  <span class="addon">原密码</span>
-                  <input type="text" class="input">
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="field">
-                <div class="input-group">
-                  <span class="addon">新密码</span>
-                  <input type="text" class="input">
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="field">
-                <div class="input-group">
-                  <span class="addon">确认新密码</span>
-                  <input type="text" class="input">
+                  <span class="addon">邮箱</span>
+                  <input type="text" class="input" name="email">
                 </div>
               </div>
             </div>
@@ -45,11 +29,14 @@
               <div class="field">
                 <div class="input-group">
                   <span class="addon">验证码</span>
-                  <input type="text" class="input">
+                  <input type="text" class="input" name="verify">
                   <img src="" alt="" class="verify-code">
                   <img class="verify-code" onclick="this.src='__CONTROLLER__/verify/'+Math.random();" src="__CONTROLLER__/verify">
                 </div>
               </div>
+              <if condition="$notice">
+                <span class="text-red">{$notice}</span>
+              </if>
             </div>
 
             <button class="button bg-green btn-u" type="submit">确认修改</button>
