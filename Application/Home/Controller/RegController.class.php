@@ -9,8 +9,8 @@
 		 if(IS_POST){
 			$user=D('User');
             if($user->create($_POST,5)){
-                if($user->reg()){
-                    $this->success('注册成功，跳转中...',U('login'));
+                if($user->add()){
+                    $this->success('注册成功，跳转中...',U('Login/login'));
                 }else{
                     $this->error('注册失败，请重新注册！',U('reg'));
                 }
@@ -20,6 +20,7 @@
             return;
         }
       } 
+	  
 		  
       public function verify(){
         $Verify =     new \Think\Verify();
