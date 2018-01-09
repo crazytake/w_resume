@@ -5,4 +5,8 @@ class AdminController extends CommonController {
     public function lst(){
 		$this->display();
     }
+	public function aaa(){
+		$this->show("test");
+	}
+
 }
