@@ -62,6 +62,37 @@ class UserController extends Controller
     }
   }
 
+  public function set_avatar()
+  {
+    $userId = 2;
+    $config = array(
+        'maxSize' => 3145728,
+        'rootPath' => './Application/Home/Uploads/',
+        'savePath' => 'avatar/'.$userId . '/',
+        'exts' => array('jpg', 'gif', 'png', 'jpeg'),
+        'autoSub' => false,
+        'replace' => true,
+        'saveName' => array('uniqid', ''),
+    );
+    $upload = new \Think\Upload($config);//实例化上传类
+
+    $info = $upload->upload();
+    if(!$info){
+      $res['status'] = 0;
+      $res['content'] = '上传失败！';
+      $this->ajaxReturn($res);
+    }else{
+      $savePath = $info['avatar']['savepath'].$info['avatar']['savename'];
+      $data['avatar'] = $savePath;
+      $User = D('User');
+      $User->create();
+      $User->where('id=2')->save($data);
+      $res['status'] = 1;
+      $res['content'] = '上传成功！';
+      $this->ajaxReturn($res);
+    }
+  }
+
   public function set_username()
   {
     if (IS_POST) {
@@ -168,7 +199,7 @@ class UserController extends Controller
       $_POST['password'] = md5($_POST['password']);
       $_POST['origin_password'] = md5($_POST['origin_password']);
       $_POST['repassword'] = md5($_POST['repassword']);
-      if($User->create($_POST,4)){
+      if($User->create($_POST,6)){
         if($User->update_user($_POST,$id)){
           redirect('/w_resume/self',0,'页面跳转中。。。');
         }else{

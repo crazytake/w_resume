@@ -48,7 +48,7 @@ Class EditResumeController extends Controller
                 $res['content'] = '上传成功！';
                 $this->ajaxReturn($res);
             }else{
-                $savePath = $info['img']['savepath'] . $info['img']['savename'];
+                $savePath = $info['img']['savepath'].$info['img']['savename'];
                 $data['user_id'] = $userId;
                 $data['template_id'] = $templateId;
                 $data['head_path'] = $savePath;
