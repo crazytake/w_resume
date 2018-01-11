@@ -10,6 +10,7 @@ class UserModel extends Model
 
   protected $_validate=array(
 			array('verify','check_verify','验证码错误！',1,'callback',6),
+
 			array('username','require','请填写昵称！',6),
 			array('username','','改昵称已被使用！',0,'unique',6),
 			//array('phone','/^13[0-9]{1}[0-9]{8}$|15[0189]{1}[0-9]{8}$|189[0-9]{8}$/','请输入正确的手机号码！',6),

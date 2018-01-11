@@ -25,6 +25,7 @@ return array(
     '__PUBLIC__'  => __ROOT__.'/Application/Home/Public/',
     '__UPLOAD__'  => __ROOT__.'/Application/Home/Uploads'
   ),
+
   
   
     'URL_ROUTER_ON'     => true,
@@ -39,5 +40,6 @@ return array(
 	'DB_DEBUG'  =>  TRUE, // 数据库调试模式 开启后可以记录SQL日志 3.2.3新增
 	'URL_MODEL' => 1,
 	'SESSION_PREFIX' => 'home_user'
+
 )
 ?>
