@@ -14,17 +14,26 @@ class UserController extends Controller
       $user=D('User');
       if($user->create($_POST,4)){
         if($user->login()){
-          $this->success('登录成功，跳转中...',U('Index/index'));
+          //$this->success('登录成功，跳转中...',U('Index/index'));
+		  redirect('../Index/index',0,'页面跳转中。。。');
         }else{
-          $this->error('您的用户名或者密码错误！');
+          //$this->error('您的用户名或者密码错误！');
+		  $res = $user->getError();
+		  $this->assign('username',I("username"));
+          $this->assign('notice',$res);
+          $this->display();
         }
       }else{
-        $this->error($user->getError());
+        //$this->error($user->getError());
+		  $res = $user->getError();
+          $this->assign('notice',$res);
+          $this->display();
       }
-
-      return;
-    }
-    if(session('id')){
+    }else{
+		$this->display();
+	}
+	
+    if(session('id')){	
       $this->error('您已经登录该系统，请勿重复登录！',U('Index/index'));
     }else{
       $this->display('login');
@@ -38,7 +47,9 @@ class UserController extends Controller
       session('username',null);
       session('id',null);
       session('[destroy]');
-      $this->success('退出成功！', U('Index/index'));
+	  
+     // $this->success('退出成功！', U('Index/index'));
+	 redirect('../Index/index',0,'页面跳转中。。。');
     } else {
       $this->redirect('/Index/index');
     }
@@ -46,20 +57,33 @@ class UserController extends Controller
 
   /*注册*/
   public function reg(){
-    $this->display();
+    //$this->display();
     if(IS_POST){
       $user=D('User');
       if($user->create($_POST,5)){
         if($user->add()){
-          $this->success('注册成功，跳转中...',U('User/login'));
+          //$this->success('注册成功，跳转中...',U('User/login'));
+		  redirect('login',0,'页面跳转中。。。');
         }else{
-          $this->error('注册失败，请重新注册！',U('reg'));
+         // $this->error('注册失败，请重新注册！',U('reg'));
+		  $res = $user->getError();
+          $this->assign('notice',$res);
+          $this->display();
         }
       }else{
-        $this->error($user->getError());
+        //$this->error($user->getError());
+	      $res = $user->getError();
+		  $this->assign('username',I("username"));
+		  $this->assign('phone',I("phone"));
+		  $this->assign('email',I("email"));
+          $this->assign('notice',$res);
+          $this->display();
       }
-      return;
-    }
+      //return;
+    }else
+	{
+		$this->display();
+		}
   }
 
   public function set_username()
