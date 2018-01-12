@@ -16,7 +16,7 @@
 								<a href="../{$vo.nav_controller}/{$vo['nav_menu'][0]['permission_function']}">{$vo.nav_name}</a>
 								<ul>
 									<volist name="vo['nav_menu']" id="v">
-										<li <if condition="$v.permission_function eq $action ">class="active"</if> ><a href="{$v.permission_function}">{$v.permission_name}</a></li>
+										<li <if condition="( $v.permission_function eq $action ) and ( $vo.nav_controller eq $controller ) ">class="active"</if> ><a href="{$v.permission_function}">{$v.permission_name}</a></li>
 									</volist>
 								</ul>
 							</li>
