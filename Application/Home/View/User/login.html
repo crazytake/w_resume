@@ -23,7 +23,7 @@
                    <div class="x_loginfo_detalis">
                      <!--<span class="icon-user"></span>-->
                      <label>用户名：</label>
-                     <input type="text" name="username" placeholder="手机号 / 邮箱">
+                     <input type="text" name="username" value="{$username}" placeholder="手机号 / 邮箱">
                    </div> 
                    <div class="x_loginfo_detalis">
                      <!--<span class="icon-lock"></span>-->
@@ -34,16 +34,22 @@
                      <label  for="pwd">验证码：</label>
                      <input type="text" name="verify" id="verify" size="10" class="admin_input_style" /><img style=" float:right;cursor:pointer;vertical-align: bottom; border-left:1px solid #CCC;" width="120" height="44" onclick="this.src='__CONTROLLER__/verify/'+Math.random();" src="__CONTROLLER__/verify">
                    </div>
+                   <div style=" margin-top:15px;">
+                   <if condition="$notice">
+                     <span class="text-red">{$notice}</span>
+                   </if>
+                   </div>
                    <div class="x_login_btn">
                      <button type="submit"><input style="display:none">登录</button>
                    </div>
+                   
                 </form>
              </div>  
              <div class="x_login_bot">
                 <a href="#" class="x_QQlog">QQ登录</a>
                 <a class="x_pasmiss">忘记密码？</a>
                <!-- <a id="x_phonereg_path" class="x_reg_path">手机注册</a>-->
-                <a href="__APP__/Reg/reg.html" id="x_usernamereg_path" class="x_reg_path">用户名注册</a>
+                <a href="__APP__/User/reg.html" id="x_usernamereg_path" class="x_reg_path">用户名注册</a>
              </div>
          </div> 
       </div>
