@@ -6,14 +6,14 @@
 
    <div class="x_login_link">
 
-         <if condition="$Think.session.username neq '' "><span>{$Think.session.username}</span> <a class="x_logout" href="__APP__/Login/logout">注销登录</a>
+         <if condition="$Think.session.username neq '' "><span>{$Think.session.username}</span> <a class="x_logout" href="__APP__/User/logout">注销登录</a>
          <else /><a class="x_login_box" href="__APP__/Home/User/login">登录/注册</a>
          </if>
          
    </div>
    <div class="x_headNav">
         <ul>
-            <li><a href="EditResume.html">在线制作</a></li>
+            <li><a href="__APP__/EditResume/create_resume">在线制作</a></li>
             <li><a href="index.html">模板商城</a></li>
             <li><a href="news.html">热点资讯</a></li>
         </ul>

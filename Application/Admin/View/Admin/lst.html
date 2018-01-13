@@ -11,5 +11,31 @@
 
 <body>
 	<include file="Common:common" />
+	
+	<div class="admin">
+		<div class="line-big">
+			<table class="table">
+				<tr>
+					<th>管理员ID</th>
+					<th>管理员名称</th>
+					<th>管理员角色</th>
+					<th>操作</th>
+				</tr>
+				<volist name="adminList" id="vo">
+					<tr>
+						<td>{$vo.id}</td>
+						<td>{$vo.username}</td>
+						<td>{$vo.role_name}</td>
+						<td>
+							<a href="#">权限</a>
+							<a href="#">修改</a>
+							<a href="#">删除</a>
+						</td>
+					</tr>
+				</volist>
+			</table>
+		</div>
+	</div>
+	
 </body>
 </html>
