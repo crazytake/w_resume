@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="__PUBLIC__/css/pintuer.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/admin.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/resume.css">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/pintuer.js"></script>
+  </head>
+  <body>
+    <include file="Common:common" />
+    <div class="resume-control-container">
+      <div class="panel border-main">
+        <div class="panel-head border-main bg-main">
+          <strong>添加简历模板</strong>
+        </div>
+        <div class="panel-body">
+          <form class="" action="" method="post">
+            <div class="form-group">
+              <div class="label">
+                <label for="template_tag">
+                  模板名称
+                </label>
+              </div>
+              <div class="field">
+                <div class="input-group">
+                  <input type="text" class="input">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="label">
+                <label for="template_tag">
+                  模板标签
+                </label>
+              </div>
+              <div class="field">
+                <div class="button-group checkbox border-main">
+                  <label class="button active">
+                    <input type="checkbox" name="template_tag" value="简约" checked="checked">
+                    简约
+                  </label>
+                  <label class="button">
+                    <input type="checkbox" name="template_tag" value="多彩">
+                    多彩
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="label">
+                <label for="template_tag">
+                  模板作者
+                </label>
+              </div>
+              <div class="field">
+                <div class="input-group">
+                  <input type="text" class="input">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="label">
+                <label for="template_tag">
+                  模板简介
+                </label>
+              </div>
+              <div class="field">
+                <textarea name="template_introduce" rows="5" cols="50" class="input" style="resize:none"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="label">
+                <label for="template_img">
+                  模板文件
+                </label>
+              </div>
+              <div class="field">
+                <a class="button input-file" href="javascript:void(0);">+ 上传文件<input size="100" type="file" /></a>
+              </div>
+            </div>
+            <div class="form-button">
+              <button class="button bg-main" type="submit">提交</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

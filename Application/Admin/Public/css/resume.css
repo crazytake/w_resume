@@ -1,0 +1,9 @@
+.resume-control-container{
+  /* display: none; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 87px;
+  left: 180px;
+  padding: 30px;
+}

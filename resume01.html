@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .clearfix:after{content:"";display:block;clear:both;}
+      .clearfix{zoom:1;}
+      .resume{
+        padding: 50px;
+        width: 842px;
+        margin: 0 auto;
+        box-shadow: 0 0 1px 0;
+      }
+      .base-top{
+        width: 100%;
+        height: 100px;
+        color: #999;
+
+      }
+      .resume-username{
+        font-size: 32px;
+      }
+      .resume-oneword{
+        font-size: 14px;
+      }
+      .other-baseinfo{
+        font-size: 14px;
+      }
+      .base-right{
+        border-top: 2px solid #0b70bd;
+        width: 100%;
+      }
+      .module{
+        width: 100%;
+      }
+      .module:first-child{
+        margin-top: 40px;
+      }
+      .module .title{
+        font-size: 20px;
+        font-weight: bold;
+        color: #0b70bd;
+        float: left;
+        width: 20%;
+      }
+      .module .content{
+        float: left;
+        width: 78%;
+        border: 1px solid #0b70bd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="resume">
+      <div class="base-top">
+        <div class="resume-username">个人简历</div>
+        <div class="resume-oneword">请用一句话描述自己</div>
+        <div class="other-baseinfo">
+          <span class="resume-birthday"></sapn>
+          <span class="resume-location"></span>
+          <span class="resume-experience"></span>
+          <span class="resume-phone"></span>
+          <span class="resume-email"></span>
+        </div>
+      </div>
+      <div class="base-right">
+        <div class="module module-intension">
+          <div class="title">求职意向</div>
+          <div class="content"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -12,6 +12,9 @@
    public function lst(){
      $this->display();
    }
+   public function add(){
+     $this->display();
+   }
  }
 
  ?>
