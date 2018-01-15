@@ -14,7 +14,9 @@
 
     <div class="admin">
        <table class="table">
+       
        <tr>
+          <th>用户ID</th>
           <th>用户名</th>
           <th>手机号</th>
           <th>邮箱</th>
@@ -22,17 +24,24 @@
           <th>微信号</th>
        </tr>
 
+       <volist name="user_arr" id="vo">
        <tr>
-         <td>wan</td>
-         <td>15625047984</td>
-         <td>1189634@qq.com</td>
-         <td>世界你好</td>
-         <td>wanlixy</td>
+         <td>{$vo.id}</td>
+         <td>{$vo.username}</td>
+         <td>{$vo.phone}</td>
+         <td>{$vo.email}</td>
+         <td>{$vo.avatar}</td>
+         <td>{$vo.wechat_id}</td>
+         <td>
+		 <a href="__CONTROLLER__/modify/id/{$vo.id}">修改</a>
+		 <a href="__CONTROLLER__/del/id/{$vo.id}">删除</a>
+          <a href="__CONTROLLER__/myResume/id/{$vo.id}">我的简历</a>
+         </td>
        </tr>
-
+       </volist>
        </table>
+       <div class ="x_page">{$page}</div> 
     </div>
-
 
 </body>
 </html>

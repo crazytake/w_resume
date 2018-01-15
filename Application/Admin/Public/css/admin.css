@@ -117,6 +117,10 @@ form .form-group:last-child {
 .admin-panel .pagination .active {
 	background: #fff;
 }
+
+.admin .x_page{ margin-top:10px; font-size:16px; float:right;}
+
+
 /*--------自定义链接颜色(可选)--------*/
 
 a {

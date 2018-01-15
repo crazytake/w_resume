@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>kwg后台管理系统</title>
+<link rel="stylesheet" href="__PUBLIC__/css/pintuer.css">
+<link rel="stylesheet" href="__PUBLIC__/css/admin.css">
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/pintuer.js"></script>
+</head>
+
+<body>
+	<include file="Common:common" /> 
+    <div class="admin">
+    <h3>我的简历</h3>
+       <table class="table">
+       <tr>
+          <th>简历ID</th>
+          <th>简历名称</th>
+          <th>简历分类</th>
+       </tr>
+
+      
+       <tr>
+         <td>1</td>
+         <td>网络工程师简历</td>
+         <td>技术</td>
+         <td>
+          <a href="__CONTROLLER__/myResume/id/{$vo.id}">查看简历</a>
+         </td>
+       </tr>
+       
+       <tr>
+         <td>2</td>
+         <td>产品经理简历</td>
+         <td>产品</td>
+         <td>
+          <a href="__CONTROLLER__/myResume/id/{$vo.id}">查看简历</a>
+         </td>
+       </tr>
+    
+       </table>
+       <div class ="x_page">{$page}</div> 
+    </div>
+     
+</body>
+</html>

@@ -11,5 +11,40 @@
 
 <body>
 	<include file="Common:common" />  
+    <div class="admin">
+    
+     <form action="" method="post">
+       <table class="table">      
+           <tr>
+              <td>用户ID</td>
+              <td><input type="text" name="id"  value="{$user_info.id}"/></td>
+           </tr>
+           <tr>
+              <td>用户名</td>
+              <td><input type="text" name="username"  value="{$user_info.username}"/></td>
+           </tr>
+           <tr>
+              <td>手机号</td>
+              <td><input type="text" name="phone"  value="{$user_info.phone}"/></td>
+           </tr>
+           <tr>
+              <td>邮箱</td>
+              <td><input type="text" name="email"  value="{$user_info.email}"/></td>
+           </tr>
+           <tr>
+              <td>个性签名</td>
+              <td><input type="text" name="avatar"  value="{$user_info.avatar}"/></td>
+           </tr>
+           <tr>
+              <td>微信号</td>
+              <td><input type="text" name="wechat_id"  value="{$user_info.wechat_id}"/></td>
+           </tr>
+           <tr>
+              <td><button type="submit"><input style="display:none">确定</button></td>
+           </tr>
+        </table>
+       </form>
+    
+    </div>
 </body>
 </html>
